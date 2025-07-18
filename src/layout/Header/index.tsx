@@ -21,7 +21,7 @@ import PHPw from "../../../public/assets/images/img/services/PHPw.svg";
 import ROR from "../../../public/assets/images/img/services/ROR.svg";
 import RORw from "../../../public/assets/images/img/services/RORw.svg";
 import blockchain from "../../../public/assets/images/img/services/blockchain.svg";
-import Blockchainw from "../../../public/assets/images/img/services/Blockchainw.svg";
+import Blockchainw from "../../../public/assets/images/img/services/blockchainw.svg";
 import node from "../../../public/assets/images/img/services/node.svg";
 import Nodew from "../../../public/assets/images/img/services/Nodew.svg";
 import MeanStack from "../../../public/assets/images/img/services/MeanStack.svg";
