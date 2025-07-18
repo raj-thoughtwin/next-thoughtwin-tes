@@ -1,0 +1,188 @@
+.python_maintop {
+  position: relative;
+  margin-top: 67px;
+  background:#FCFCFF;
+}
+// section.android_section::before {
+//   content: "";
+//   position: absolute;
+//   display: block;
+//   left: 0;
+//   bottom: 0px;
+//   background: url(/assets/images/img/andorid_effect.png);
+//   width: 308px;
+//   height: 461px;
+//   z-index: 999;
+//   border-radius: 461px;
+//   opacity: 0.30000001192092896;
+//   background: #a4ca3a;
+//   filter: blur(114.5px);
+// }
+
+// section.android_section::after {
+//   content: "";
+//   position: absolute;
+//   display: block;
+//   right: 0px;
+//   top: 0;
+//   background: url(/assets/images/img/android_shadow.png);
+//   width: 133px;
+//   height: 189.42px;
+//   z-index: 0;
+//   background-size: contain;
+// }
+.block_bannerLeft h2 {
+  font-style: normal;
+  font-size: 43px;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 57px;
+  padding-bottom: 10px;
+  font-family: "Formular-Black";
+  margin: 0px;
+}
+.block_bannerLeft p {
+  color: #989898;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-family: "Formular-Medium";
+}
+
+.block_bannerLeft a {
+  background: $red-color;
+  color: $white-color;
+  text-transform: capitalize;
+  position: relative;
+  text-align: center;
+  z-index: 1020;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 16px;
+  font-family: "Formular-bold";
+  border: 0;
+  line-height: 48px;
+  width: 234px;
+  height: 48px;
+  transition: all 0.3s;
+}
+.block_bannerLeft a:hover {
+  background-color: $black-text-color;
+  color: $white-color;
+}
+.blockchain_area {
+  padding: 60px 0px;
+}
+.img_block {
+  text-align: right;
+}
+.img_block img {
+  width: 100%;
+  height: 302px;
+  object-fit: contain;
+  display: block;
+}
+.sec_blockchain_grad::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 228px;
+  height: 250px;
+  right: 0px;
+  z-index: 0;
+  bottom: -100px;
+}
+@media only screen and (max-width: 767px) {
+  .python_maintop {
+    margin-top: 61px;
+  }
+  section.android_section::after {
+    display: none;
+  }
+  .img_block {
+    text-align: center;
+    padding-top: 30px;
+    img {
+      height: 200px;
+    }
+  }
+
+  .blockchain_area {
+    padding: 30px 0px;
+  }
+  .block_bannerLeft h2 {
+    line-height: 40px;
+  }
+  .TopSection_android::after {
+    display: none;
+  }
+  .block_bannerLeft {
+    text-align: center;
+  }
+
+  .block_bannerLeft h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 5px;
+  }
+
+  .block_bannerLeft a {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 5px;
+  }
+
+  .block_bannerLeft p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .react_maintop .block_bannerLeft a {
+    margin-bottom: 0px;
+  }
+
+  .block_bannerLeft h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .python_maintop {
+    margin-top: 61px !important;
+  }
+  .block_bannerLeft a {
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .img_block img {
+    min-width: 340px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .python_maintop {
+    margin-top: 62px !important;
+  }
+  .block_bannerLeft p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .block_bannerLeft a {
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .block_bannerLeft h2 {
+    font-size: 40px;
+  }
+}

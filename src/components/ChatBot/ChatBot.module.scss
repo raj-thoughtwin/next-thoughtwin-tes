@@ -1,0 +1,152 @@
+.chatboxPopup {
+  position: fixed;
+  bottom: 83px;
+  right: 20px;
+  width: 350px;
+
+  z-index: 1000;
+}
+.botMessage {
+  font-size: 14px;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+span.botMessage {
+  padding: 10px;
+  min-width: 100%;
+  display: flex;
+  border-radius: 10px;
+}
+.chatbox-popup .chatbox-popup__div .chatbox-popup__avatar {
+  margin-top: 0;
+  border-radius: 50%;
+}
+
+.chatboxPopup .chatboxPopupMain {
+  width: 100%;
+  padding: calc(2 * 16px) 16px;
+  line-height: calc(16px + 16px / 2);
+  color: #888;
+  text-align: center;
+}
+
+main.chatboxPopupMain {
+  height: 360px;
+}
+
+.chatboxPopup .chatboxPopupFooter {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.chatboxPopupDiv p {
+  margin: 0;
+  color: #fff;
+  font-family: Formular;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.chatboxPopupDiv {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  // border-bottom: 1px solid #e0e0e0;
+}
+
+.chatboxPopup .chatboxPopupDiv {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 105px;
+  padding: 22px 26px 22px;
+  color: #fff;
+  background: url(../../../public/assets/images/img/chat/bg.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 9;
+}
+
+.imgOnlineChat {
+  position: relative;
+}
+
+.imageChatBot {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  object-fit: contain;
+}
+
+.bod {
+  padding: 15px;
+  overflow-y: scroll;
+  min-height: 264px;
+  max-height: 312px;
+  vertical-align: top;
+  position: relative;
+  bottom: 0px;
+  background: #fff;
+  p {
+    margin: 0;
+  }
+}
+
+
+
+.botMessage {
+  background-color: #f1f1f1;
+}
+.userMessage{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.outerBox{
+min-height: 57px;
+}
+
+
+.digitalClock {
+  font-size: 12px;
+  color: #828282;
+  display: block;
+}
+
+.chatboxPopupFooter {
+  display: flex;
+  padding: 10px;
+  // border-top: 1px solid #e0e0e0;
+}
+
+.chatboxPopupFooter input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.messageSubmit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 16px 10px 0px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,340 @@
+.homepage_banner .mobileright {
+  display: none;
+}
+
+.homepage_banner{
+  background-image: url("../../../public/assets/images/homebanner.png");
+  height: 790px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.homepage_banner h1.main_head {
+  font-family: "Unbounded-Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: $blue-bg-color;
+  text-align: left;
+  position: relative;
+  padding-bottom: 16px;
+}
+.homepage_banner p{
+  color: #475569;
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 60%;
+}
+.homepage_banner {
+  position: relative;
+  top: 0;
+  margin-top: 67px;
+  @media (max-width: 767px) {
+    margin-top: 62px;
+  }
+}
+
+video#banner_video {
+  padding-top: 64px;
+}
+
+img#banner_video {
+  display: block;
+}
+img.mobile_video {
+  display: none;
+}
+
+img.mobile_video {
+  width: 100%;
+  margin-top: 62px;
+  object-fit: contain;
+  // height: 748px;
+  height: auto;
+}
+.Timeline_bg img{
+  width: 100%;
+}
+.main_headbox.mobile_block {
+  display: none;
+}
+.main_headbox .call_btn {
+  text-decoration: none !important;
+  padding: 0px;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  color: $white-color!important;
+  background:$blue-bg-color;
+  border-radius: 16px;
+  text-shadow: none;
+  height: 56px;
+  line-height: 56px;
+  width: 191px;
+  transition: 0.5s ease-out;
+  margin-top: 32px;
+}
+
+.main_headbox .call_btn:hover {
+  background: $red-color !important;
+  color: $white-color !important;
+  text-decoration: none !important;
+}
+
+.mobileright img {
+  max-width: 100%;
+}
+
+.main_headbox {
+  padding: 28% 0 10px 0%;
+  max-width: 750px;
+  text-align: left;
+}
+.banner_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .homepage_banner{
+    height: 540px !important;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .homepage_banner{
+    height: 550px !important;
+    margin-bottom: 20px;
+    background-size: 100% 124% !important;
+  }
+}
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .homepage_banner{
+    height: 600px !important;
+    margin-bottom: 20px;
+    background-size: 100% 124% !important;
+  }
+}
+@media (max-width: 767px) {
+  .mobile_video {
+    padding-bottom: 30px;
+  }
+  .homepage_banner{
+    background-image: url(../../../public/assets/images/mb-banner.png) !important;
+    height: 300px !important;
+    background-size: 90% !important;
+  }
+  .banner_overlay {
+    position: relative !important;
+  }
+  .main_headbox .call_btn{
+    margin-top:15px !important;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+  }
+  .main_headbox.mobile_none {
+    display: block;
+  }
+
+  .main_headbox a.btn.call_btn {
+    line-height: 60px !important;
+    height: 60px;
+    padding: 0px;
+    margin-top: 5px !important;
+  }
+
+  .main_headbox.mobile_none {
+    display: none;
+  }
+  .main_headbox.mobile_block {
+    display: block;
+    position: unset;
+    padding: 0;
+    text-align: left;
+   
+  }
+  .main_headbox.mobile_block h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: $blue-bg-color;
+    text-align: left;
+    font-family: "Unbounded-Bold";
+    padding: 0;
+    @media (max-width: 767px) {
+      text-align: center;
+      line-height: normal;
+      font-size: 35px;
+    }
+  }
+  .main_headbox.mobile_block p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #475569;
+    text-align: left;
+    margin: 0;
+    opacity: 60%;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  img.mobile_video {
+    margin-top: 21px !important;
+    display: block;
+  }
+.homepage_banner video{
+    display: none ;
+}
+
+  
+  .homepage_banner .mobileright {
+    display: block;
+    text-align: center;
+  }
+
+  .homepage_banner {
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .homepage_banner:before {
+    background-size: 50%;
+    left: 40px;
+    top: -55px;
+    display: none;
+  }
+
+  .homepage_banner h1.main_head {
+    font-size: 32px;
+    line-height: 110%;
+    padding-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .banner_video {
+    position: relative;
+  }
+  .banner_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1022px) {
+  .homepage_banner h1.main_head {
+    font-size: 37px;
+    padding: 40px 0px 0px;
+  }
+  .homepage_banner p{
+    line-height: 30px;
+  }
+
+  .homepage_banner {
+    height: 380px;
+  }
+  .main_headbox {
+    padding: 17% 0 10px 0%;
+    max-width: 603px;
+    text-align: left;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .homepage_banner h1.main_head {
+    font-size: 45px !important;
+    line-height: 63px !important;
+    padding-top: 70px !important;
+   
+  }
+  .call_btn{
+    margin-top: 16px !important;
+  }
+   
+  .homepage_banner{
+    position: relative;
+    padding: 0% 0 10px 0%;
+    height: 490px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  video#banner_video {
+    padding-top: 62px;
+  }
+  .main_headbox{
+    padding-top: 60px;
+  }
+}
+@media (min-width: 1281px) and (max-width:1366px) {
+.main_headbox{
+  padding-top: 120px;
+}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 360px) {
+  .homepage_banner h1.main_head {
+    font-size: 20px !important;
+    line-height: 22px !important;
+    padding-top: 12px !important;
+  }
+  .main_headbox a.btn.call_btn {
+    width: 100%;
+  }
+}
+@media (min-width: 1022px) and (max-width: 1024px) {
+  .homepage_banner h1.main_head {
+    font-size: 45px;
+    line-height: 65px;
+  }
+  .call_btn,
+  .estimate_btn {
+    width: 245px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  a.btn.call_btn {
+    margin-top: 25px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .homepage_banner h1.main_head {
+    font-size: 35px;
+    line-height: 110%;
+  }
+
+  .homepage_banner h1.main_head {
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .homepage_banner h1.main_head {
+    font-size: 30px;
+  }
+  .main_headbox {
+    padding: 27% 0 10px 0;
+    top: 36%;
+  }
+}

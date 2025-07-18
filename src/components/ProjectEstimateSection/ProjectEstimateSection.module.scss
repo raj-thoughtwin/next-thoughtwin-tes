@@ -1,0 +1,195 @@
+.sec_project_istimate {
+  padding:60px 0px;
+  text-align: center;
+}
+
+.project_istimate_text h5 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.pro_estimate_form label {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.pro_estimate_form .form-group {
+  margin-bottom: 8px;
+}
+
+.project_istimate_text h2 {
+  font-weight: 600;
+  color: #000;
+  font-size: 36px;
+  padding-bottom:5px;
+  margin: 0px;
+  font-family: "Formular-Black";
+}
+
+.project_istimate_text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #989898;
+  font-family: "Formular-Medium";
+}
+
+.project_istimate_text a{
+  display: inline-block;
+    background-color: #FF0000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 250px;
+    height: 46px;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 10px;
+    transition: all 0.3s;
+    font-family: "Formular-bold";
+}
+.project_istimate_text a:hover{
+  background: #000;
+}
+
+.pro_estimate_form h2 {
+  font-size: 24px;
+  color: #000;
+  padding-bottom: 15px;
+  font-family: "Formular-Medium";
+}
+
+.pro_estimate_form .iti.iti--container {
+  left: 0px !important;
+}
+.pro_estimate_form .iti__selected-flag {
+  height: 37px !important;
+}
+
+.pro_estimate_form input {
+  height: 38px;
+}
+
+.pro_estimate_form {
+  border: 1px solid #a7a7a7;
+  border-radius: 20px;
+}
+
+.pro_estimate_form {
+  padding: 25px 30px 25px;
+}
+
+.pro_estimate_form form input {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.pro_estimate_form form textarea {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  padding: 8px 10px !important;
+  background: transparent;
+  border: 1px solid #c9d0d6;
+}
+
+.pro_estimate_form button {
+  // background: #ff0000;
+  // color: #fff;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  width: 190px;
+  height: 54px;
+  line-height: 44px;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 10px;
+  transition: all 0.3s;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+}
+
+.pro_estimate_form button:hover {
+  background: #000 !important;
+  color: #fff;
+}
+
+.pro_estimate_form span {
+  color: red;
+}
+@media only screen and (max-width: 767px) {
+  .sec_project_istimate {
+    padding: 40px 0px;
+  }
+  .pro_estimate_form button {
+    height: 44px;
+    line-height: 34px;
+    width: 125px;
+  }
+  .project_istimate_text h5 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .project_istimate_text h2 br {
+    display: none;
+  }
+
+  .project_istimate_text h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .project_istimate_text p {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+
+  .pro_estimate_form {
+    padding: 20px;
+  }
+
+  .pro_estimate_form h2 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .sec_project_istimate {
+    padding: 50px 0px;
+  }
+  .pro_estimate_form button {
+    height: 50px;
+    width: 160px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sec_project_istimate {
+    padding: 50px 0px;
+  }
+  .pro_estimate_form h2 {
+    font-size: 20px;
+  }
+
+  .project_istimate_text h2 {
+    font-size: 30px;
+  }
+  .project_content h2 {
+    font-size: 17px;
+  }
+}

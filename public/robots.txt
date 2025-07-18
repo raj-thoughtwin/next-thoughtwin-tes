@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://thoughtwin.com
+
+# Sitemaps
+Sitemap: https://thoughtwin.com/sitemap.xml

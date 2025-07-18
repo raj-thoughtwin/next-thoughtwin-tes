@@ -1,0 +1,124 @@
+.Why_Thoughtwin{
+    .step1Outer {
+      position: relative;
+    }
+    
+    .step1Outer:hover .ImgBoxOuter {
+      opacity: 0.3;
+    }
+    .ImgBoxOuter {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #44bcff -0.55%, #44b0ff 22.86%, #ff44ec 48.36%, #ff44ec 73.33%, #ff675e 99.34%);
+      backdrop-filter: blur(84.44886779785156px);
+      opacity: 0;
+      z-index: 0;
+      filter: blur(50px);
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 0.3s ease;
+    }
+    .itemBox:hover {
+      border: 1px solid rgba(193, 198, 202, 0);
+      scale: 1;
+    }
+    .itemBox {
+      border:7px solid rgba(247, 245, 245, 1);
+      border-radius: 24px;
+      padding: 50px;
+      margin-top: 80px;
+      text-align: center;
+      overflow: hidden;
+      transition: all 0.5s ease-in-out;
+      position: relative;
+      z-index: 1;
+      background: #fff;
+      scale: 0.99;
+      @media only screen and (max-width: 767px) {
+        padding: 50px 25px;
+        margin-top: 20px;
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        margin-top: 20px;
+      }
+      cursor: pointer;
+      &:hover {
+        scale: 1;
+        border:7px solid rgba(247, 245, 245, 1) !important;
+      }
+      &::after{
+        position: absolute;
+        content: "";
+        background-image: url("../../../public/assets/images/AI.svg");
+        height: 126px;
+        width: 178px;
+        right: 0;
+        top: 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        @media only screen and (max-width: 767px) {
+          height: 80px;
+          width: 80px;
+        }
+        @media (min-width: 768px) and (max-width: 1199px) {
+          height: 120px;
+          width: 120px;
+        }
+      }
+      h3{
+        font-size: 40px;
+        color: #000;
+        font-family: "Formular-bold";
+        margin: 0;
+        padding-bottom: 24px;
+        @media only screen and (max-width: 767px) {
+          font-size: 20px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          font-size: 30px;
+        }
+      }
+      p{
+        font-size: 20px;
+        color: #000;
+        font-family: "Formular";
+        margin: 0;
+        padding-bottom: 24px;
+        opacity: 60%;
+        line-height: 30px;
+        width: 810px;
+        margin: 0 auto;
+        max-width: 100%;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 22px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          font-size: 18px;
+        }
+      }
+      a{
+        background-color: #000000;
+        display: inline-block;
+        color: #fff;
+        border-radius: 100px;
+        font-size: 16px;
+        font-family: "Formular-bold";
+        border: 0;
+        width: 234px;
+        height: 48px;
+        line-height: 48px;
+        transition: all 0.3s;
+        @media only screen and (max-width: 767px) {
+          font-size: 14px;
+          padding: 0;
+          line-height: 48px;
+        }
+        &:hover{
+          background-color: red;
+          color: #fff;
+        }
+      }
+    }
+  }

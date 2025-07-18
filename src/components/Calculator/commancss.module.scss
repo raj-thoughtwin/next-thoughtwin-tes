@@ -1,0 +1,187 @@
+.TeamExtensionStep1 {
+  border: 1px solid #c1c6ca80;
+  border-radius: 16px;
+  padding: 32px 30px;
+  margin-top: 60px;
+  .List_Left {
+    padding-right: 15px;
+    h4 {
+      font-size: 24px;
+      font-weight: 400;
+      color: #000;
+      font-family: "Formular";
+      margin: 0;
+    }
+    h5 {
+      font-size: 24px;
+      font-weight: 500;
+      color: #000;
+      font-family: "Formular-Medium";
+      margin: 0;
+    }
+    .InnerList {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+  }
+  .Right_TeamTab {
+    ul {
+      border: 1px solid #c1c6ca80;
+      border-radius: 100px;
+      padding: 10px;
+      width: fit-content;
+      li {
+        margin: 0;
+        button {
+          font-size: 16px;
+          font-weight: 500;
+          color: #ff0000;
+          font-family: "Formular-Medium";
+          padding: 8px 33px;
+          border: 0;
+        }
+      }
+    }
+  }
+  .PaddingLeft {
+    padding-left: 30px;
+    border-left: 1px solid #c1c6ca80;
+  }
+}
+.MiddleInputdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c1c6ca80;
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin-bottom: 16px;
+  h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+    font-family: "Formular";
+    text-transform: capitalize;
+  }
+  button {
+    border: 0;
+    background-color: transparent;
+    color: #2f80ed;
+    padding: 0;
+  }
+  input {
+    border: 1px solid #c1c6ca80;
+    border-radius: 4px;
+    width: 43px;
+    height: 34px;
+    padding-left: 14px;
+  }
+}
+.clearFilterbtn {
+  color: #2f80ed;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Formular";
+  border: 0;
+  background-color: transparent;
+}
+.AddYourPosition {
+  padding-top: 24px;
+  h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Formular";
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  input {
+    border: 1px solid #c1c6ca80;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Formular";
+    padding-left: 24px;
+    &::placeholder {
+      color: #bdbdbd;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Formular";
+    }
+  }
+}
+
+// =============
+@media (min-width: 300px) and (max-width: 350px) {
+  .TeamExtensionStep1 {
+    .Right_TeamTab {
+      ul {
+        li {
+          button {
+            padding: 8px 10px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .TeamExtensionStep1 {
+    margin-top: 0px;
+    padding: 20px;
+    .PaddingLeft {
+      padding: 0;
+      border: 0;
+    }
+    .List_Left {
+      padding-right: 0;
+      h4 {
+        font-size: 16px;
+      }
+      h5 {
+        font-size: 16px;
+      }
+    }
+    .Right_TeamTab {
+      ul {
+        li {
+          button {
+            font-size: 12px;
+            padding: 8px 25px;
+          }
+        }
+      }
+    }
+  }
+  .clearFilterbtn {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .TeamExtensionStep1 {
+    .PaddingLeft {
+      padding-left: 15px;
+    }
+    .List_Left {
+      padding-right: 0px;
+      h4 {
+        font-size: 18px;
+      }
+      h5 {
+        font-size: 18px;
+      }
+    }
+    .Right_TeamTab {
+      ul {
+        li {
+          button {
+            padding: 8px 15px;
+          }
+        }
+      }
+    }
+  }
+}

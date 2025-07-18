@@ -1,0 +1,26 @@
+.required_icon {
+  color: red;
+}
+.Answerinput{
+  height: 60px;
+  padding: 12px 15px;
+  margin-top: 15px !important;
+}
+
+.bottomInput{
+ 
+  label{
+    display: block !important; 
+    text-align: left;
+    font-size: 14px;
+  }
+
+  input{
+    margin-top: 5px !important;
+    @media only screen and (max-width: 767px) {
+      height: 48px;
+      font-size: 12px;
+      padding: 5px 15px;
+    }
+  }
+}

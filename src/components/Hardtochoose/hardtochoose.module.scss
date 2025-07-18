@@ -1,0 +1,50 @@
+.Hard_choose {
+  box-shadow: 0px 0px 22.1px 0px #00000029;
+  border-radius: 8px;
+  width: 166px;
+  padding: 16px;
+  position: fixed;
+  background-color: #fff;
+  right: 25px;
+  bottom: 0;
+  z-index: 999999;
+  animation: bounce1 15s infinite;
+
+  h3 {
+    font-family: "Formular-Medium";
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+
+    span {
+      color: #007AFF;
+    }
+  }
+
+  .close {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 25px;
+    height: 25px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+@keyframes bounce1 {
+  0%,
+  100% {
+    bottom: 0;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    bottom: 200px;
+    animation-timing-function: ease-out;
+  }
+}

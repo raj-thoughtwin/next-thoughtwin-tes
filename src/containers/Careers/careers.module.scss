@@ -1,0 +1,618 @@
+.current_opening {
+  position: relative;
+  padding: 52px 0 50px;
+  margin-top: 66px;
+
+}
+
+.current_opening h2 {
+  position: relative;
+  font-weight: 600;
+  font-size: 60px;
+  font-family: Rajdhani;
+  line-height: 100%;
+  color: $black-text-color;
+}
+.build_career {
+  position: relative;
+  padding: 50px 0;
+}
+.current_opening h2:before {
+  position: absolute;
+  content: "";
+  background: url("/assets/images/img/career/perkbg.png");
+  background-repeat: no-repeat;
+  width: 155px;
+  height: 100px;
+  background-size: cover;
+  left: 29%;
+  top: -40px;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: none;
+  }
+}
+.MailText{
+  color: #4F4F4F;
+  font-family: "Formular";
+  font-size:20px !important;
+  padding: 20px 0px;
+
+  a{
+    color: #4F4F4F;
+  }
+}
+.current_opening .card-header h5 button {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  text-shadow: none;
+}
+.current_opening .card-header {
+  padding: 0.75rem 1.25rem;
+}
+.set_acc button.accordian_head {
+  position: relative;
+}
+
+.current_opening #accordion .card-body {
+  border-top: 1px solid #e0e0e0;
+  padding: 22px 30px 10px;
+}
+
+.card_body h3 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: $grey-color;
+  margin-bottom: 10px;
+}
+
+.card_body p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: $grey-color;
+}
+
+.card_body button {
+  background: $red-color;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $white-color;
+  border-color: $red-color;
+  text-shadow: none;
+  height: 44px;
+  width: 250px;
+}
+
+.current_opening .btn.btn-primary:hover {
+  background: $black-text-color !important;
+  border-color: $black-text-color !important;
+}
+
+.current_opening .btn.btn-primary:focus {
+  color: $white-color !important;
+}
+
+section.current_opening .card {
+  margin-bottom: 25px;
+}
+
+.accordion.set_acc .card.mb-0 {
+  border: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.accordion.set_acc .card-header {
+  background: $white-color;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: none;
+  border: none;
+  position: relative;
+  padding: 42px 25px 42px;
+  margin-bottom: 30px;
+}
+
+.accordion.set_acc {
+  text-align: left;
+}
+
+.accordian_name .btn-check:focus + .btn,
+.btn:focus {
+  background: transparent !important;
+}
+.accordian_head h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: $black-text-color;
+  font-weight: 600;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.accordian_head span {
+  font-size: 15px !important;
+  color: $black-text-color !important;
+  font-weight: normal;
+  white-space: pre-line;
+  display: flex;
+}
+
+h3.accordian_head {
+  color: $black-text-color;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Formular";
+  padding-bottom: 20px;
+}
+
+.career_bgpage {
+  position: relative;
+  background: #eff3f6;
+  padding: 60px 0px;
+
+}
+
+.career_bgpage h1 {
+  font-family: Rajdhani;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: $black-text-color;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.career_bgpage p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: $grey-color;
+  padding: 0px 55px;
+  @media only screen and (min-width: 767px) {
+    line-height: normal !important;
+  } 
+}
+
+.build_career {
+  position: relative;
+  padding: 50px 0;
+}
+
+.build_career h2 {
+  font-family: Rajdhani;
+  position: relative;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: $black-text-color;
+}
+
+.build_career h2:before {
+  position: absolute;
+  content: "";
+  background: url("/assets/images/img/career/buildbg.png");
+  background-repeat: no-repeat;
+  width: 192px;
+  height: 170px;
+  background-size: cover;
+  left: -15%;
+  top: -62px;
+}
+
+.build_career p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: $grey-color;
+}
+
+.build_career .control-prev {
+  background: $red-color !important;
+  border: 1px solid $red-color !important;
+  color: $white-color;
+  width: 110px;
+  height: 44px;
+  text-align: center;
+  border-radius: 100px;
+  opacity: 1 !important;
+  position: absolute;
+  left: 15px;
+  bottom: -15px;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+.build_career .control-dots {
+  display: none;
+}
+.build_career .control-next {
+  background: $white-color !important;
+  border: 1px solid $red-color !important;
+  color: $white-color;
+  width: 110px;
+  height: 44px;
+  text-align: center;
+  border-radius: 100px;
+  opacity: 1 !important;
+  position: absolute;
+  right: 15px;
+  bottom: -15px;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+.build_career .carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {
+  display: none !important;
+}
+
+.build_career .control-next::after {
+  content: "Next ";
+  display: block;
+  position: absolute;
+  left: 0;
+  color: $red-color;
+  font-size: 16px;
+  font-weight: 600;
+  right: 18px;
+  top: 9px;
+}
+.build_career .control-prev::after {
+  content: "Prev";
+  display: block;
+  position: absolute;
+  left: 0;
+  color: $white-color;
+  font-size: 16px;
+  font-weight: 600;
+  left: 18px;
+  right: 0;
+  top: 9px;
+}
+.build_career button.control-next span {
+  position: absolute;
+  right: 23px;
+  top: -12px;
+  color: $red-color;
+  font-size: 40px;
+}
+.build_career li img {
+  height: 450px;
+  border-radius: 20px;
+}
+
+.find_job {
+  background: #fff0f0;
+  position: relative;
+  padding: 50px 0;
+}
+
+.find_job .job_question h3 {
+  font-family: Rajdhani;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: $black-text-color;
+}
+
+.find_job .job_question p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: $grey-color;
+}
+
+.find_job .job_question p span {
+  font-weight: 700;
+}
+
+.find_job .find_job_img img {
+  max-width: 100%;
+}
+
+section.current_opening .card {
+  margin-bottom: 25px;
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.current_opening #accordion .card-header h5 button {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  text-shadow: none;
+}
+.card_header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.accordian_head {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  text-shadow: none;
+}
+button.accordian_head:focus {
+  background-color: transparent !important;
+}
+.current_opening #accordion .card-header h5 button {
+  position: relative;
+}
+
+.card_body {
+  border-top: 1px solid #e0e0e0;
+  padding: 22px 30px 10px;
+}
+.career_offer {
+  position: relative;
+  background: linear-gradient(90deg, #b8cbb8 0, #b8cbb8 0, #b465da 0, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  padding: 50px 0;
+}
+.career_offer h2 {
+  font-family: Rajdhani;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: $white-color;
+}
+.career_offer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $secondary-bg-color;
+}
+
+.perk_join {
+  position: relative;
+  padding: 50px 0;
+}
+
+.perk_join h2 {
+  font-family: Rajdhani;
+  position: relative;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100%;
+  color: #000;
+}
+
+.perk_join h2:before {
+  position: absolute;
+  content: "";
+  background: url("/assets/images/img/career/perkbg.png");
+  background-repeat: no-repeat;
+  width: 155px;
+  height: 100px;
+  background-size: cover;
+  left: 20%;
+  top: -25px;
+}
+
+.perk_join .perk_detail {
+  text-align: left;
+  padding: 10px;
+}
+
+.perk_join .perk_detail .perk_img {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.perk_join .perk_detail .perk_img img {
+  max-width: 100%;
+}
+
+.perk_join .perk_detail h5 {
+  font-family: Rajdhani;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 100%;
+  color: #000;
+  margin: 10px 0;
+}
+
+.perk_join .perk_detail p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $grey-color;
+}
+
+.sliderBox{
+padding-right: 90px;
+}
+.job_question{
+  padding-left: 90px;
+}
+
+// *****************MEDIA QUERY START
+@media (max-width: 767px) {
+  .current_opening #accordion .card-header h5 button:after {
+    top: 12px;
+  }
+  .career_offer p br{
+    display: none;
+  }
+
+  .career_offer{
+    padding: 35px 0;
+
+    p{
+      margin: 0px;
+      font-size: 16px;
+    }
+
+  }
+  .current_opening{
+    padding: 30px 0;
+
+    p{
+      margin: 0px;
+    }
+  }
+  .build_career{
+    padding: 40px 0 21px;
+  }
+  .sliderBox{
+    padding-right:0px;
+    }
+    .job_question{
+      padding-left:0px;
+    }
+    .current_opening{
+      padding: 20px 0 20px;
+      margin-top: 61px;
+    }
+  .current_opening h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.career_bgpage h1 {
+  font-size: 32px;
+  padding-top: 22px;
+  line-height: 110%;
+}
+  .perk_join h2:before {
+    left: 9%;
+    top: -22px;
+    width: 115px;
+    height: 73px;
+    transform: rotate(-43deg);
+  }
+  .perk_join h2 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .perk_join .perk_detail {
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .career_bgpage p {
+    padding: 0px;
+    line-height: 20px;
+  }
+  .accordian_head h4 {
+    font-size: 18px;
+    width: 90%;
+  }
+  .build_career h2:before {
+    width: 97px;
+    height: 83px;
+    left: -1%;
+    top: 0px;
+  }
+  .job_question p{
+    text-align: center;
+  }
+.job_question h2{
+  padding-top: 30px;
+}
+  
+  .find_job .job_question h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 600;
+  }
+  .career_offer h2 {
+    font-size: 28px;
+    padding: 0px 25px 10px;
+    margin: 0px;
+
+  }
+  h3.accordian_head {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .build_career h2,
+  .current_opening h2 {
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin: 0;
+  }
+  .current_opening h2:before {
+    left: 13%;
+    top: 7px;
+    width: 81px;
+    height: 50px;
+    transform: rotate(-43deg);
+
+  }
+
+  .career_bgpage{
+    padding: 35px 0px;
+
+    h1{
+      padding-top: 0px;
+    }
+    p{
+      margin-top: 12px !important;
+    }
+  }
+
+  .find_job{
+    padding: 30px 0;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .career_bgpage p{
+    padding: 0px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .build_career li img{
+    height: 340px;
+  }
+  .sliderBox{
+    padding-right:15px;
+    }
+    .job_question{
+      padding-left:15px;
+    }
+    
+ 
+}
+
+
+
+
+

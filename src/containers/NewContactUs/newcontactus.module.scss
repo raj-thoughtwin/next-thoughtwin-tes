@@ -1,0 +1,1025 @@
+.ProjectSlider_div {
+  padding-top: 30px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 40px;
+  }
+}
+
+.contactArea {
+  background: linear-gradient(184.76deg, #fff2f2 1.98%, #ffffff 95.73%);
+  padding: 60px 0px 0px;
+  margin-top: 67px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 62px;
+    padding: 40px 0px 0px;
+  }
+
+  .headingBox {
+    text-align: center;
+    padding-bottom: 50px;
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 25px;
+    }
+    h2 {
+      font-size: 48px;
+      font-family: "Formular-bold";
+      color: #101012;
+      padding-bottom: 20px;
+      margin: 0px;
+
+      @media (min-width: 1025px) and (max-width: 1199px) {
+        font-size: 40px;
+        padding-bottom: 15px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 30px;
+        padding-bottom: 12px;
+      }
+    }
+    p {
+      color: #2f3241;
+      font-size: 18px;
+      font-family: "Formular";
+      margin: 0px;
+    }
+  }
+  
+
+  .IntroRight {
+    border: 1px solid #e5e5e5;
+    padding: 25px 30px;
+    border-radius: 16px;
+    background: #fff;
+
+    @media (min-width: 1025px) and (max-width: 1199px) {
+      padding: 25px 20px;
+      img {
+        width: 100%;
+        height: 200px;
+      }
+    }
+
+    .ImgBox {
+      @media (min-width: 768px) and (max-width: 1024px) {
+        img {
+          width: 100%;
+          height: 200px;
+        }
+      }
+    }
+
+    .TextBox {
+      border-top: 1px solid #9291916b;
+      padding-top: 28px;
+      margin-top: 25px;
+
+      h3 {
+        font-size: 22px;
+        font-family: "Formular";
+        color: #000;
+        margin: 0px;
+        @media only screen and (max-width: 767px) {
+          font-size: 20px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          font-size: 18px;
+        }
+      }
+      h2 {
+        font-size: 22px;
+        font-family: "Formular-Medium";
+        color: #000;
+        padding-top: 8px;
+        @media only screen and (max-width: 767px) {
+          font-size: 20px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          font-size: 18px;
+        }
+      }
+      button {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 30px;
+        border: 1px solid $red-color;
+        color: $red-color;
+        font-weight: 500;
+        font-family: Poppins;
+        transition: all 0.3s;
+        background: #fff;
+        text-transform: capitalize;
+        @media only screen and (max-width: 767px) {
+          height: 40px;
+        }
+      }
+
+      button:hover {
+        background: $red-color;
+        color: #fff;
+      }
+    }
+  }
+
+
+  .InteroLeft::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(202, 92, 92, 0.3) !important;
+    background-color: #f5f5f5 !important;
+    border-radius: 10px !important;
+  }
+  .InteroLeft::-webkit-scrollbar {
+    width: 5px !important;
+    background-color: #f5f5f5 !important;
+  }
+  .InteroLeft::-webkit-scrollbar-thumb {
+    border-radius: 5px !important;
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.72, rgb(198, 198, 199)),
+      color-stop(0.72, rgb(198, 198, 199)),
+      color-stop(0.72, rgb(198, 198, 199))
+    ) !important;
+  }
+  .contactLeftArea {
+    border: 1px solid #b0bbc733;
+    padding: 24px 35px;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 4px 16px 0px #3851781a;
+    @media only screen and (max-width: 767px) {
+      padding: 24px 20px;
+      margin-bottom: 20px;
+    }
+
+    button.RequestBtn {
+      height: 48px;
+      background: $red-color;
+      color: #fff;
+      border-radius: 30px;
+      font-size: 19px;
+      font-family: "Formular-Medium";
+      border: none;
+      display: block;
+      margin: 0px auto;
+      width: 308px;
+      transition: all 0.3s;
+      @media only screen and (max-width: 767px) {
+        height: 45px;
+        font-size: 16px;
+      }
+    }
+    button.RequestBtn:hover {
+      background: #000;
+      color: #fff;
+    }
+    .red_border{
+      border: 1px solid $red-color;
+    }
+
+    .interest-box {
+      border: 1px solid #d0d0d0;
+      padding: 10px 20px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      height: 60px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+      .circle {
+        width: 18px;
+        height: 18px;
+        border: 2px solid #e74c3c;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+      }
+
+      span:last-child {
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      &.selected {
+        border-color: #e74c3c;
+        background-color: #fff0f0;
+
+        .circle {
+          background-color: #e74c3c;
+        }
+      }
+
+      &:hover {
+        border-color: #e74c3c;
+      }
+    }
+    .checkBoxOuter {
+      text-align: center;
+      padding-bottom: 35px;
+
+      textarea {
+        border: 1px solid #e2e6eb;
+        padding: 17px;
+        border-radius: 16px;
+        background: #fbfbfb;
+        min-height: 174px;
+        margin-bottom: 10px !important;
+      }
+
+      // herr add
+      .UplodBox {
+        margin-top: 1rem;
+        padding: 1rem;
+        border: 1px dashed #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        @media only screen and (max-width: 767px) {
+           margin-bottom: 20px;
+        }
+
+        label{
+          cursor: pointer;
+        }
+      }
+
+      .fileUploadWrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .customFileLabel {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        padding: 8px 12px;
+        color: white;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: background-color 0.2s ease;
+      }
+
+      .hiddenFileInput {
+        display: none;
+      }
+
+      .icon {
+        font-size: 16px;
+        color: black;
+      }
+
+      .progressContainer {
+        margin-top: 12px;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+
+      .progressHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+
+      .fileName {
+        font-size: 14px;
+        color: #333;
+        word-break: break-word;
+        max-width: 90%;
+      }
+
+      .deleteIcon {
+        cursor: pointer;
+        font-size: 16px;
+        color: #dc3545;
+        transition: color 0.2s ease;
+      }
+
+      .deleteIcon:hover {
+        color: #a71d2a;
+      }
+ 
+
+      .TextareaRight {
+        button {
+          border: 1px solid #ffc7c7;
+          border-radius: 4px;
+          padding: 5px 11px;
+          font-family: "Formular-Medium";
+          color: #4e535e;
+          width: 100%;
+          font-size: 14px;
+          background: transparent;
+          text-align: left;
+          margin-bottom: 15px;
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        padding-bottom: 0px;
+      }
+
+      h4 {
+        font-size: 18px;
+        font-family: "Formular-Medium";
+        color: #2f3241;
+        padding-bottom: 20px;
+        text-align: center;
+        margin: 0px;
+        @media only screen and (max-width: 767px) {
+          padding-bottom:15px;
+        }
+      }
+      p {
+        display: inline-flex;
+        border: 1px solid #e2e6eb;
+        height: 38px;
+        line-height: 35px;
+        padding: 0px 10px;
+        font-size: 16px;
+        border-radius: 8px;
+        color: #2f3241;
+        font-family: "Formular";
+        font-weight: 400;
+        margin: 0px 16px 16px 0px;
+        @media only screen and (max-width: 767px) {
+          width: 100%;
+        }
+      }
+      input {
+        margin: 0 12px 0 0;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+      }
+
+      .customCheckbox {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-left: 30px;
+        margin: 10px 0;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: capitalize;
+        user-select: none;
+
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+        }
+
+        .checkmark {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 18px;
+          width: 18px;
+          background-color: #fff;
+          border: 1px solid #ffc7c7;
+          border-radius: 50%; // makes it round
+          transition: all 0.2s;
+        }
+
+        input:checked ~ .checkmark {
+          background-color: #f65b5b;
+          box-shadow: inset 0 0 0 4px #fff;
+        }
+
+        &:hover .checkmark {
+          border-color: #f22;
+        }
+      }
+      .termBox {
+        width: 40%;
+        margin: 0px auto;
+        @media only screen and (max-width: 767px) {
+          width: 100%;
+        }
+      }
+      .customCheckbox2 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-left: 36px;
+        margin: 10px 0;
+        cursor: pointer;
+        font-size: 16px;
+        user-select: none;
+
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+        }
+
+        .checkmark {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 28px;
+          width: 28px;
+          background-color: #fff;
+          border: 1px solid #e4e4e4;
+          border-radius: 4.5px;
+          transition: all 0.2s;
+
+          &::after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 11px;
+            top: 6px;
+            width: 6px;
+            height: 12px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+          }
+        }
+
+        input:checked ~ .checkmark {
+          background-color: #f65b5b;
+        }
+
+        input:checked ~ .checkmark::after {
+          display: block;
+        }
+
+        &:hover .checkmark {
+          border-color: #f22;
+        }
+      }
+
+      .fileUploadWrapper {
+        position: relative;
+        display: block;
+      }
+
+      .customFileLabel {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 15px;
+        color: #2f3241;
+        font-family: "Formular";
+        @media only screen and (max-width: 767px) {
+          display: block;
+        }
+      }
+
+      .hiddenFileInput {
+        display: none;
+      }
+
+      .icon {
+        font-size: 18px;
+        color: #2e2e2e;
+      }
+
+     
+
+      .inputBox {
+        text-align: left;
+        input {
+          border: 1px solid #e2e6eb;
+          border-radius: 8px;
+          background: #fbfbfb;
+          padding: 12px 15px;
+          font-size: 15px;
+          font-family: "Formular";
+          color: #ccc;
+          margin: 0px;
+          width: 100%;
+        }
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 25px;
+        }
+      }
+      .bottomSpace{
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+
+
+
+  // **********************First Section Css Close
+
+  .ClientJourney {
+    padding: 50px 0px;
+
+    @media only screen and (max-width: 767px) {
+      padding: 30px 0px;
+    }
+  }
+  .ClientsJourneyInner {
+    background: linear-gradient(21.04deg, #453a94 19.09%, #f43b47 121.37%);
+    padding: 45px 40px;
+    border-radius: 24px;
+    @media only screen and (max-width: 767px) {
+      padding: 30px 25px;
+    }
+
+    h3 {
+      font-size: 30px;
+      font-family: "Formular-Medium";
+      color: #fff;
+      padding-bottom: 28px;
+      @media only screen and (max-width: 767px) {
+        font-size: 22px;
+        padding-bottom: 20px;
+      }
+    }
+
+    .TabBox {
+      img {
+        width: 100%;
+        height: 277px;
+        @media only screen and (max-width: 767px) {
+          height: 200px;
+        }
+        @media (min-width: 1025px) and (max-width: 1199px) {
+          height: 200px;
+        }
+      }
+    }
+  }
+
+  .WeareBox {
+    background: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
+    border-radius: 24px;
+    padding: 46px 32px;
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 30px;
+      padding: 30px;
+    }
+    @media (min-width: 1025px) and (max-width: 1199px) {
+      padding: 37px 32px;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      padding: 37px 32px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #fff;
+      font-family: "Formular";
+      font-weight: 400;
+      line-height: 28px;
+      margin-bottom: 1rem;
+      @media only screen and (max-width: 767px) {
+        line-height: 24px;
+      }
+    }
+
+    .TopBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 22px;
+      border-bottom: 2px solid #ffffff40;
+      margin-bottom: 20px;
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 15px;
+      }
+
+      h3 {
+        font-size: 32px;
+        font-family: "Formular-Medium";
+        color: #fff;
+        @media only screen and (max-width: 767px) {
+          font-size: 25px;
+        }
+      }
+
+      a {
+        border-radius: 8px;
+        color: #000;
+        font-size: 15px;
+        background: #fff;
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        width: 152px;
+        text-align: center;
+        font-family: "Formular-Medium";
+        @media only screen and (max-width: 767px) {
+          width: 115px;
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+
+  .ChooseUs {
+    background: linear-gradient(
+      248.53deg,
+      #ff8177 -74.91%,
+      #ff867a -74.91%,
+      #ff8c7f -35.85%,
+      #f99185 21.81%,
+      #cf556c 70.17%,
+      #b12a5b 111.09%
+    );
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 24px;
+    @media (min-width: 1025px) and (max-width: 1199px) {
+      padding: 20px;
+    }
+
+    h3 {
+      font-family: "Formular-bold";
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      @media only screen and (max-width: 767px) {
+        padding-bottom: 15px;
+      }
+    }
+
+    .chooseImg {
+      position: absolute;
+      right: 31px;
+      top: 20px;
+    }
+
+    .Product {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      border-radius: 9px;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      @media (min-width: 1025px) and (max-width: 1199px) {
+        padding: 10px;
+      }
+
+      h4 {
+        font-size: 14px;
+        font-family: "Formular";
+        color: #64748b;
+        margin: 0px;
+      }
+      h3 {
+        font-size: 20px;
+        font-family: "Formular-bold";
+        color: #0f172a;
+        margin: 0px;
+        @media (min-width: 1025px) and (max-width: 1199px) {
+          font-size: 14px;
+        }
+        @media only screen and (max-width: 767px) {
+          padding-bottom: 0px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .OurLocation {
+    padding: 50px 0px 0px;
+    @media only screen and (max-width: 767px) {
+      padding: 30px 0px 0px;
+    }
+
+    .LocationImg {
+      margin-bottom: 50px;
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-family: "Formular";
+      color: #333333;
+      text-transform: uppercase;
+      padding-bottom: 24px;
+      margin: 0px;
+      @media only screen and (max-width: 767px) {
+        font-size: 22px;
+        padding-bottom: 12px;
+      }
+    }
+    .main_head {
+      color: #333;
+      font-size: 30px;
+      font-family: "Formular";
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      @media only screen and (max-width: 767px) {
+        font-size: 25px;
+      }
+    }
+    .addr {
+      width: 100%;
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 24px;
+      padding: 10px 20px;
+      text-align: left;
+      margin-bottom: 10px;
+      @media only screen and (max-width: 767px) {
+        border: none;
+        padding: 10px 20px 10px 0px;
+      }
+    }
+
+    .addr h4 {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 120%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #333;
+      margin-left: 40px;
+      display: inline-block;
+      background: #fff;
+      margin-top: -31px;
+    }
+
+    .right_bor:after {
+      position: absolute;
+      content: "";
+      border-right: 1px solid #e0e0e0;
+      height: 81px;
+      width: 2px;
+      top: 40%;
+      left: auto;
+      right: 15px;
+      @media only screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+  .add_box ul li span.color_grey {
+    color: #666666;
+    font-size: 16px;
+  }
+
+  .add_box h2 {
+    font-family: "Formular";
+    font-weight: 500;
+    font-size: 20px;
+    color: $red-color;
+    text-transform: capitalize;
+  }
+  .right_bor1 {
+    padding-bottom: 23px;
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 0px;
+    }
+  }
+
+  .add_box ul {
+    padding: 0;
+  }
+
+  .add_box ul li {
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140.8%;
+    color: #333;
+    list-style: none;
+    padding-bottom: 12px;
+    display: inline-flex;
+    align-items: start;
+    padding-right: 10px;
+  }
+
+  .add_box ul li img {
+    margin-right: 10px;
+    width: 25px;
+  }
+
+  .add_box ul li p {
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140.8%;
+    color: #000;
+    margin: 0;
+    display: flow-root;
+  }
+
+  .add_box ul li span.color-grey {
+    color: #666666;
+    font-size: 16px;
+  }
+
+  .add_box ul li span.color_blue {
+    color: #64a3ef;
+  }
+  .add_box ul li img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .add_box ul {
+      margin: 0;
+    }
+  }
+
+
+
+  .ProfessionalsBox {
+    background: url(../../../public/assets/images/people.png) no-repeat;
+    padding: 40px;
+    @media only screen and (max-width: 767px) {
+      background-size: 100%;
+      padding: 32px;
+      margin-bottom: 15px;
+
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+      background-size: 100%;
+      padding:18px;
+      margin-bottom: 20px;
+    }
+    @media (min-width: 1200px) and (max-width: 1399px) {
+      background-size: 100%;
+      padding:21px;
+      margin-bottom: 20px;
+    }
+
+
+    h2 {
+      font-size: 68px;
+      font-family: "Formular-bold";
+      color: #fff;
+      margin-bottom: 0.5rem;
+      @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 54px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 22px;
+      }
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: 400;
+      color: #fff;
+      font-family: "Formular";
+      margin-bottom: 0.5rem;
+      @media only screen and (max-width: 767px) {
+        font-size: 13px;
+      }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+.checkBoxOuter{
+   margin-bottom: 15px !important;
+}
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .contactArea {
+    .contactLeftArea {
+      .checkBoxOuter {
+        .termBox {
+          width: 45%;
+        }
+      }
+    }
+
+    .WeareBox {
+      padding: 37px 32px;
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .contactArea {
+    padding: 50px 0px;
+
+    .WeareBox {
+      p {
+        line-height: 23.5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contactArea {
+    margin-top: 62px;
+    padding-top: 40px;
+
+    .contactLeftArea {
+      .checkBoxOuter {
+        padding-bottom: 20px;
+        .termBox {
+          width: 100%;
+        }
+      }
+    }
+
+    .checkBoxOuter {
+      .inputBox {
+        margin-bottom: 15px;
+      }
+    }
+
+    .headingBox {
+      padding-bottom: 30px;
+      h2 {
+        font-size: 40px;
+        padding-bottom: 10px;
+      }
+    }
+    .ClientsJourneyInner {
+      .TabBox {
+        img {
+          height: 200px;
+        }
+      }
+    }
+    .WeareBox {
+      .TopBox {
+        h3 {
+          font-size: 20px;
+        }
+
+        button {
+          height: 40px;
+          width: 118px;
+        }
+      }
+    }
+  }
+}
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tagBox {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.removeTagBtn {
+  background: none;
+  border: none;
+  margin-left: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: red;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .contactArea {
+  .ProfessionalsBox {
+    background-size: 100%;
+    padding:21px;
+     
+
+    h2{
+      font-size: 30px;
+    }
+  }
+}
+}

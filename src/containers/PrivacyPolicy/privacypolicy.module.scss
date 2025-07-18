@@ -1,0 +1,137 @@
+.privacySection{
+    margin-top: 67px;
+    padding: 15px;
+    background-color: #FFF0F0;
+    @media only screen and (max-width: 767px) {
+        margin-top: 60px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .privacy_head{
+        position: relative;
+        padding-left: 50px;
+        @media only screen and (max-width: 767px) {
+           padding-top: 20px;
+           padding-left: 0;
+           text-align: center;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            background-image: url(../../../public/assets/images/privacy/ellipse.svg);
+            left: 7px;
+            width: 165px;
+            height: 108px;
+            background-repeat: no-repeat;
+            background-size: 74%;
+            top: -22px;
+            @media only screen and (max-width: 767px) {
+                top: 0;
+                background-size: 50%;
+                left: 47px;
+            }
+            
+        }
+        h2{
+            font-weight: 600;
+            font-family: 'Rajdhani';
+            color: #000;
+            font-size: 72px;
+            @media only screen and (max-width: 767px) {
+                font-size: 35px;
+            }
+            @media (min-width: 768px) and (max-width: 1024px) {
+                font-size: 48px;
+            }
+        }
+        p{
+            font-family: "Formular";
+            color: #4F4F4F;
+            font-size: 24px;
+            font-weight: 400;
+            @media only screen and (max-width: 767px) {
+                font-size: 18px;
+            }
+            @media (min-width: 768px) and (max-width: 1024px) {
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
+.Privacy_content{
+    padding-top:36px ;
+    h3{
+        font-family: "Formular";
+        color: #4F4F4F;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 40px;
+        text-align: center;
+        margin: 0;
+        line-height: 24px;
+        @media only screen and (max-width: 767px) {
+            font-size: 16px;
+            padding-bottom: 25px;
+        }
+    }
+    .List_privacy{
+        padding-bottom: 25px;
+        @media only screen and (max-width: 767px) {
+            padding-bottom: 20px;
+        }
+        h4{
+            font-weight: 700;
+            font-family: 'Rajdhani';
+            color: #000;
+            font-size: 24px;
+            margin-bottom: 20px;
+            @media only screen and (max-width: 767px) {
+                font-size: 20px;
+                margin-bottom: 6px;
+            }
+        }
+        ul{
+            padding-left: 45px;
+            margin: 0;
+            @media only screen and (max-width: 767px) {
+                padding-left: 35px;
+            }
+        }
+        li{
+            font-family: "Formular";
+            color: #4F4F4F;
+            font-size: 18px;
+            font-weight: 400;
+            padding-bottom: 10px;
+            a{
+                color: #4F4F4F;
+            }
+            @media only screen and (max-width: 767px) {
+                font-size: 15px;
+            }
+            &:last-child{
+                padding-bottom: 0;
+            }
+        }
+        p{
+            font-family: "Formular";
+            color: #4F4F4F;
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0;
+            padding-left: 35px;
+            @media only screen and (max-width: 767px) {
+                font-size: 15px;
+            }
+        }
+    }
+}

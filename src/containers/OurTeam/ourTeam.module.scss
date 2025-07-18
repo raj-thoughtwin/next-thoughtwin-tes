@@ -1,0 +1,254 @@
+.btn_join {
+  z-index: inherit !important;
+  color: #fff !important;
+}
+
+.banner1 {
+  padding: 0;
+  position: relative;
+}
+
+.banner_img {
+  background: url(/assets/images/img/teambanner.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 780px;
+  background-attachment: initial;
+  margin-top: 65px;
+}
+.banner_img::before {
+  position: absolute;
+  content: "";
+  background: #00000045;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.banner_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner_img img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: right;
+}
+.banner_img img {
+  width: 100%;
+}
+.banner_img {
+  text-align: right;
+}
+.banner_heading {
+  text-align: center;
+  padding: 70px 0;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.banner_heading p {
+  margin: 2px 0 !important;
+  line-height: 1.5 !important;
+}
+
+.banner_heading h1 {
+  line-height: 1.1;
+  font-size: 58px;
+  text-transform: uppercase;
+  color: $white-color;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.banner_heading p {
+  color: $white-color;
+  font-size: 20px;
+  padding: 0 0 20px 0;
+}
+
+a.site_btn.btn_join {
+  text-decoration: none;
+}
+
+.site_btn {
+  background: #ef6e3b;
+  background: linear-gradient(to right, #ef6e3b 0, #d53fa8 100%);
+  padding: 10px 30px;
+  color: $white-color;
+  border-radius: 3px;
+  position: relative;
+}
+.site_btn:hover {
+  background: linear-gradient(to right, #d53fa8 0, #ef6e3b 100%);
+  color: $white-color;
+  text-decoration: none;
+}
+.social11:hover {
+  background: #fbfbfb;
+}
+
+.social11 {
+  padding: 50px 0;
+  border-right: 1px solid #ccc;
+}
+
+a.social_icon {
+  text-decoration: none;
+}
+
+ul.social_icon .fa {
+  border: 2px solid $white-color;
+  padding: 7px 10px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  color: $white-color !important;
+  font-size: 20px;
+}
+ul.social_icon {
+  list-style: none;
+  padding: 0;
+}
+
+ul.social_icon li {
+  display: inline-block;
+}
+
+ul.social_icon .fa:hover {
+  color: #ea1c6a !important;
+  border-color: #ea1c6a;
+}
+.social_icon li {
+  margin-right: 10px !important;
+}
+
+.footer_div {
+  text-align: center;
+}
+.footer_div h2 {
+  color: #222;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+// ************************MEDIA QUERY START
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+  .banner1 {
+    background-position: top center !important;
+  }
+}
+@media (max-width: 375px) {
+  .mob_pad_zero {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  ul.social_icon {
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner1 {
+    background-position: center center !important;
+    background-size: 100% !important;
+  }
+  .banner1 {
+    background-position: inherit !important;
+  }
+
+  .banner_img {
+    height: 216px !important;
+    position: relative;
+    top: -6px;
+  }
+  ul.social_icon {
+    margin-bottom: 6rem !important;
+  }
+  ul.social_icon {
+    margin-bottom: 6rem;
+  }
+  .banner_heading {
+    padding: 0;
+    top: 37px;
+  }
+  .social11 {
+    padding:45px 0;
+    border-right: 1px solid #ccc;
+}
+  .banner_heading p {
+    font-size: 13px;
+    margin: 32px 0 10px !important;
+  }
+
+  .footer_div h2 {
+    font-size: 23px;
+  }
+  .banner1 {
+    margin-top: 62px;
+  }
+
+  .site_btn {
+    padding: 7px 17px;
+  }
+}
+@media (max-width: 320px) {
+  .footer_div h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 280px) {
+  .banner_heading p {
+    margin: -25px 0px 10px !important;
+  }
+  .social11 {
+    padding: 23px 0px;
+  }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 767px) {
+  .banner_heading p {
+    margin: 129px 0 10px !important;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner1 {
+    height: 500px !important;
+  }
+  .banner_img {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .banner_img {
+    height: 580px;
+    
+  }
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .banner_img {
+    margin-top: 58px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1022px) {
+  .banner1,
+  .banner12,
+  .contry-div {
+    margin-top: 0 !important;
+  }
+}

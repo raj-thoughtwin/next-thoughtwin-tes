@@ -1,0 +1,540 @@
+.navbar {
+  background-color: $white-color;
+}
+.top_nav {
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+  padding: 11px 0px;
+}
+.header {
+  background: $white-color !important;
+  height: 67.5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  border-bottom: 1px solid #e6e8ed;
+}
+.relative {
+  position: relative;
+}
+
+.service_clickpage #service-dropcontent {
+  display: none;
+  background: $white-color;
+  border-radius: 20px !important;
+}
+.header {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  position: relative;
+}
+.MainLogo img {
+  width: 180px;
+  height: auto;
+  margin-top: 3px;
+}
+
+.navbar-light .navbar-brand {
+  margin-top: 19px;
+  padding: 0;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  background: none !important;
+}
+
+.show_service_list {
+  display: none;
+}
+
+.contact_usbtn1 {
+  border: none;
+  background: #f40402 !important;
+}
+.customNav li {
+  list-style: none;
+}
+a.dropdown-item.change_hovercolor {
+  padding: 0px 0px 0px 10px;
+}
+.contact_usbtn {
+  font-family: Poppins !important;
+  background: $red-color !important;
+  border-radius: 100px !important;
+  border: 0 !important;
+  text-shadow: none !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: $white-color !important;
+  padding: 10px 22px !important;
+  border: 1px solid transparent !important;
+  transition: 0.5s ease-out !important;
+  @media screen and (min-width: 1025px) and (max-width: 1279px) {
+    font-size: 14px !important;
+  }
+}
+
+button.btn.contact_usbtn {
+  padding: 10px 20px !important;
+}
+
+.contact_usbtn:hover {
+  color: $white-color !important;
+  background: $black-text-color !important;
+  border: 1px solid $black-text-color !important;
+}
+
+.dropdown-slide .dropdown-menu a.dropdown-item {
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: $grey-color;
+}
+
+.dropdown-slide .dropdown-menu a.dropdown-item:hover {
+  background: 0 0;
+}
+
+.dropdown-slide .dropdown-menu a.dropdown-item:focus {
+  background: 0 0;
+  outline: 0;
+}
+ul.service_list li:hover {
+  background: #ff0000;
+  border-radius: 5px;
+}
+
+a.header_change_hovercolor.dropdown-item {
+  padding: 0px;
+}
+
+ul.service_list li:hover {
+  background-color: $red-color;
+  color: #fff;
+}
+ul.service_list li a:active {
+  background: transparent;
+  color: #212529;
+}
+ul.service_list li:hover a {
+  border-bottom: none !important;
+}
+ul.service_list li:hover {
+  border-bottom: none !important;
+}
+ul.service_list li:hover .display_hovernone {
+  display: none;
+}
+
+.display_hoverblock {
+  display: none;
+}
+
+ul.service_list li:hover .display_hoverblock {
+  display: inline-block;
+}
+ul.service_list {
+  padding: 0px;
+}
+
+ul.service_list li:hover .width_display {
+  background: $red-color;
+}
+
+ul.service_list li:hover a.change_hovercolor {
+  color: $white-color;
+}
+.service_clickpage #service-dropcontent {
+  display: none;
+  background: #fff;
+  border-radius: 20px !important;
+}
+
+.service_clickpage:hover #service-dropcontent {
+  border-radius: 20px;
+}
+
+#serviceblock ul.service_list .service_img {
+  height: 20px;
+  width: 20px;
+}
+
+.service_img {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.bg_hoverred:hover .service_img {
+  background-color: $white-color;
+}
+
+.service_img {
+  height: 28px;
+  width: 28px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+#serviceblock ul.service_list {
+  padding: 15px;
+}
+
+#serviceblock ul.service_list li a {
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: $grey-color;
+  text-decoration: none;
+  display: inline;
+}
+
+#serviceblock ul.service_list .width_display {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#serviceblock ul.service_list li {
+  padding: 14px 6px;
+  border-bottom: 1px solid #e6e8ed;
+  margin: 0;
+}
+
+#serviceblock ul.service_list li a.change_hovercolor:focus {
+  outline: 0;
+}
+.scrolled {
+  background: $white-color !important;
+  transition: 0.5s;
+  top: 0;
+  box-shadow: 0 0 20px 0 #ccc;
+}
+
+ul.service_list .width_display {
+  width: 48px;
+  display: inline-block;
+  height: 48px;
+  background: $secondary-bg-color;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+ul.service_list li:hover a.change_hovercolor {
+  color: $white-color;
+}
+.navheading {
+  margin-bottom: 35px;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: $grey-color;
+  font-family: Poppins;
+}
+.navheading.opacity_none {
+  opacity: 0;
+}
+.bg_hoverred:hover .navheading {
+  color: $white-color;
+}
+
+ul.service_list li {
+  margin-bottom: 15px;
+  font-family: Poppins;
+}
+
+.drop_padding {
+  height: 560px;
+}
+
+.workshop_box {
+  background-image: url(/assets/images/img/footerbase.png);
+  mix-blend-mode: multiply;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  padding: 22px 25px;
+  background-position: center;
+  height: 119px;
+}
+
+.workshop_box h3 {
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: $white-color;
+  margin: 0px;
+}
+
+.workshop_box p {
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white-color;
+}
+.contact_usbtn img {
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.drop_padding {
+  height: 560px;
+}
+ul.service_list {
+  font-family: Poppins;
+  list-style: none;
+  padding: 0;
+}
+
+ul.service_list li {
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+.customNav li .mobileNonebtn {
+  display: block;
+}
+
+.hide_nav_list {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .top_menu.container.relative {
+    width: 100%;
+    margin: 0px auto;
+    min-width: 100%;
+  }
+}
+.vector_box {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .top_nav {
+    padding: 0px;
+  }
+
+  .customNav .serviceMobbtn {
+    border: none !important;
+    background: transparent !important;
+  }
+  .appendme {
+    padding-left: 20px;
+  }
+  .service_innerpage .services_list li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e8ed;
+    padding: 8px 6px 8px;
+    margin-bottom: 0px;
+  }
+  ul.service_list li:last-child {
+    border-bottom: 0px;
+  }
+  // .service_innerpage .services_list li a {
+  //   color: #fff !important;
+  // }
+  .service_innerpage .services_list li:hov er a {
+    color: #4f4f4f !important;
+  }
+  ul.service_list li:hover a.change_hovercolor {
+    color: #fff !important;
+  }
+  .service_innerpage .services_list li h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+  .services_list {
+    padding: 15px 18px;
+  }
+  .back_tohome img {
+    height: 24px;
+    width: 24px;
+  }
+  li.back_tohome img {
+    width: 12px;
+  }
+
+  li.back_tohome img {
+    width: 10px;
+    height: 17px;
+  }
+
+  header.navbar {
+    height: 62px;
+  }
+  .customNav li .mobileNonebtn {
+    display: none !important;
+  }
+  // .work_link{
+  //   margin-left: 0px !important;
+  // }
+  .customNav {
+    padding: 30px 0px 0px 17px;
+  }
+
+  .contact_usbtn {
+    display: none;
+  }
+  .vector_box {
+    display: block;
+  }
+  .workshop_box {
+    display: none;
+  }
+  .customNav .serviceMobbtn:after {
+    font-family: FontAwesome;
+    content: "\f067";
+    color: #333;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    top: 1px;
+    position: relative;
+  }
+  .service_clickpage .dropdown-menu,
+  .service_clickpage .dropdown-menu.show {
+    display: none !important;
+  }
+  .navbar-collapse .navbar-nav .service_clickpage .nav-link:hover:after {
+    color: red !important;
+  }
+
+  .vector_box {
+    width: 22px !important;
+    top: 8px;
+    position: relative;
+    float: right;
+    text-align: right;
+    margin: 0;
+    right: 0px;
+  }
+  .vector_box img {
+    width: 22px;
+    height: auto;
+  }
+  #serviceblock ul.service_list li a {
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+  }
+  ul.service_list .width_display {
+    height: 40px !important;
+    width: 40px !important;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .top_menu{
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .inner_headernav .navbar-brand img {
+    margin-left: 0;
+  }
+  ul.service_list .width_display {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .MainLogo img {
+    width: 140px;
+    height: auto;
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 1022px) and (max-width: 1024px) {
+  .white_colorli {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .navbar-light .navbar-brand {
+    margin: -5px 0;
+  }
+
+  .navbar-light .navbar-brand img {
+    width: 161px;
+    vertical-align: top;
+  }
+  .navbar-light .navbar-brand {
+    margin: -5px 0;
+  }
+
+  .navbar-light .navbar-brand img {
+    width: 161px;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .vector_box {
+    width: 40%;
+  }
+  #serviceblock ul.service_list li a {
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+  }
+
+  #serviceblock ul.service_list li {
+    padding: 8px 6px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .top_menu.container.relative.inner_headernav {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact_usbtndiv .contact_usbtn {
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+  }
+
+  .contact_usbtndiv .contact_usbtn img {
+    width: 22px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1399px) {
+  .usbtn {
+    padding: 10px 12px !important;
+  }
+  .contact_usbtn img{
+    width: 20px;
+    height: auto;
+  }
+}

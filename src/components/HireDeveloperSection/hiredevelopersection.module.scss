@@ -1,0 +1,145 @@
+.sec_blockchain_dev {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.blockchain_container {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.android_sec .blockchain_container::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 228px;
+  height: 250px;
+  right: 0px;
+  z-index: 0;
+  bottom: -100px;
+  background: url(/assets/images/img/gradiant_before.png) no-repeat;
+}
+
+.blockchain_container ol {
+  color: $grey-color;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.blockchain_container ul {
+  color: $grey-color;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.hire_dev_block img {
+  width: 100%;
+  height: 100%;
+}
+
+.hire_dev_text h2 {
+  font-size: 29px;
+  font-weight: 600;
+  color: $black-text-color;
+  font-family: "Roboto";
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.hire_dev_text h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: $black-text-color;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.hire_dev_text p {
+  color: #989898;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hire_dev_text a {
+  display: inline-block;
+  background-color: $red-color;
+  font-size: 16px;
+  font-weight: 500;
+  width: 206px;
+  height: 46px;
+  border-radius: 30px;
+  color: $white-color;
+  text-align: center;
+  line-height: 46px;
+  margin-top: 10px;
+  transition: all 0.3s;
+  font-family: "Formular-bold";
+}
+
+.hire_dev_text a:hover {
+  background-color: $black-text-color;
+  color: $white-color;
+}
+
+.sec_aducation_learn {
+  background: #ff8282;
+  padding: 110px 0px;
+}
+
+.hire_dev_text {
+  padding-left: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .sec_blockchain_dev {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .android_sec .blockchain_container::after {
+    width: 78px;
+    height: 140px;
+    background: url(/assets/images/img/crypto1.svg) no-repeat;
+    bottom: -100px;
+    right: 0px;
+  }
+
+  .hire_dev_block img {
+    width: 80%;
+  }
+  .hire_dev_block {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .hire_dev_text p {
+    font-size: 16px;
+  }
+
+  .hire_dev_text h5 {
+    font-size: 17px;
+  }
+
+  .hire_dev_text h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .hire_dev_text {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .sec_blockchain_dev {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sec_blockchain_dev {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

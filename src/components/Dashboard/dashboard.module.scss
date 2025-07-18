@@ -1,0 +1,389 @@
+
+
+.dashboard_wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  // width: var(--sidebar-width);
+  width: 350px;
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  li {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 12px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  &.collapsed {
+    width: var(--sidebar-collapsed-width);
+  }
+
+  &.show {
+    transform: translateX(0);
+  }
+}
+
+.sidebar{
+  &.collapsed {
+    a{
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ 
+ 
+    }
+  
+    .nav_link_icon {
+      margin-right: 0;
+    }
+    .sidebar_nav{
+      padding: 15px 10px !important;
+    }
+  }
+}
+
+.email_support_card{
+  background-color: #f8f8f8 !important;
+  border: 1px solid #ddd;
+}
+.email_support_card:hover{
+  border: 1px solid #ddd !important;
+transform: translateY(0px) !important;
+
+}
+
+.HeadingBox h2{
+ font-size: 32px;
+ font-weight: 600;
+ font-family: "Poppins";
+}
+.HeadingBox p{
+  font-size: 16px;
+}
+.sidebar_header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sidebar_logo {
+  text-align: center;
+  padding:5px 0px 12px;
+  color: var(--primary);
+  width: 100%;
+}
+
+.sidebar_nav {
+  padding: 1.5rem 0.5rem;
+  .nav_item{
+    display: block ;
+    width: 100%;
+
+    a{
+      display: block;
+    }
+}
+}
+
+.nav_item {
+  margin-bottom: 0.25rem;
+
+}
+
+.nav_link {
+  display: block;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  color: var(--dark);
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  cursor: pointer;
+  flex-direction: column;
+  margin-bottom: 5px;
+
+  &:hover {
+    background-color: var(--secondary);
+    color: $red-color;
+  }
+
+  &.active {
+    background-color: #ff0000;
+    color: white;
+  }
+
+  .nav_link_icon {
+    margin-right: 0.75rem;
+  }
+}
+
+.main_content {
+  flex: 1;
+  margin-left: 350px;
+  transition: all 0.3s ease;
+
+  &.expanded {
+    margin-left: var(--sidebar-collapsed-width);
+  }
+}
+
+.header {
+  height: var(--header-height);
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+
+  .header_search {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 1rem;
+  }
+
+  .header_actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.bottom_space {
+  width: 42%;
+
+  margin-bottom: 1.5rem;
+  margin-left: 1.3rem;
+}
+.badgebg{
+  background: transparent !important;
+  color: #000 !important;
+  font-family: "Poppins" !important;
+  font-weight: 400 !important;
+}
+
+.stats_card,
+.email_support_card {
+  background-color: #f8f8f8 !important;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.2s ease;
+  font-family: "Poppins";
+
+  &:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+  }
+  h5{
+    font-weight: 500;
+
+  }
+  p{
+    font-size: 14px;
+  }
+}
+
+.email_support_card:hover {
+  border: 2px solid var(--primary);
+}
+
+.stats_title {
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.stats_value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.table_card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  font-family: "Poppins";
+
+  .table_header {
+    padding: 1rem 1.5rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .table_title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  .table_actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.custom_tab_style {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.custom_mvp_style {
+  max-width: 100%;
+  width: 100%;
+  background-color: #f8f8f8 !important;
+  border: 1px solid #ddd;
+}
+
+.dashboard_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+
+  th {
+    background-color: #f9fafb;
+    color: #4b5563;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    white-space: nowrap;
+    font-weight: 500 !important;
+  }
+
+  td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1f2937;
+    font-weight: normal;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  tr:hover td {
+    background-color: #f9fafb;
+  }
+}
+
+.empty_state {
+  padding: 3rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.rightPanel {
+  padding-top: 20px;
+}
+
+.loginForm {
+  width: 600px;
+  margin: 100px auto;
+  padding: 50px 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+// Responsive
+@media (max-width: 992px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .main_content,
+  .main_content.expanded {
+    margin-left: 0;
+  }
+}
+
+
+
+.sidebar{
+  border-right: 1px solid #ccc;
+  height:100vh;
+  padding-top: 20px;
+  ul{
+    margin: 0px;
+    padding: 0px;
+  
+  }
+}
+
+.rightPanel{
+  padding-top: 20px
+}
+
+.sidebar li{
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  font-size: 16px;
+  color: #333;
+  padding: 10px 12px;
+}
+.sidebar a{
+  text-decoration: none;
+  color: #333;
+  display: block;
+  font-weight: 500;
+}
+
+
+.loginForm{
+  width: 600px;
+  margin:100px auto;
+  padding: 50px 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}

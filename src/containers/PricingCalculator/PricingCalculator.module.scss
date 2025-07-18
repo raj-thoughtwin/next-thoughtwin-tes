@@ -1,0 +1,20 @@
+.CalculatorAreaHeading {
+    text-align: center;
+    padding-top: 80px;
+    @media only screen and (max-width: 767px) {
+      padding-top: 25px;
+    }
+    h2 {
+      font-size: 40px;
+      color: $black-text-color;
+      font-family: "Formular-Black";
+      text-transform: uppercase;
+      padding-bottom: 32px;
+      margin: 0px;
+      @media only screen and (max-width: 767px) {
+        font-size: 20px;
+        line-height: 25px;
+  
+      }
+    }
+}  

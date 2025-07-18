@@ -1,0 +1,134 @@
+.container {
+    position: relative;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 1157px;
+    margin: 0 auto;
+    margin-top: 7rem;
+  }
+  
+  .card {
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.85rem;
+    line-height: 1.4;
+    max-width: 270px;
+  }
+  
+  .leftCard {
+    top: 1rem;
+    left: 167px;
+    box-shadow: 0 0px 3px 0px gray;
+    font-weight: 500;
+  }
+  .left_space_para{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left_space_para>strong{
+    color: black;
+    font-size: 1rem;
+  }
+  .right_space_para{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between; 
+  }
+  .right_space_para>strong{
+    color: white;
+    font-size: 1rem;
+  }
+   .head{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #FDDEDE;
+    padding: 5px 7px;
+    border-radius: 7px;
+  }
+  .heading_para{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 13px;
+    color: black;
+    text-align: center;
+  }
+  
+  .centerCard {
+    top: -5rem;
+    left: 48%;
+    box-shadow: 0 0px 3px 0px gray;
+    transform: translateX(-50%);
+    font-weight: 500;
+  }
+  
+  .rightCard {
+    top: -4rem;
+    right: 165px;
+    background: #F90500;
+    color: white;
+    border: none;
+    font-weight: 600;
+  }
+  .rightCard .right_para{
+    color: white;
+  }
+
+  
+  .savings {
+    color: #d00000;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .customYAxisTick {
+    font-size: 13px;
+    fill: #444;
+    font-weight: 600;
+  }
+  
+  .yAxisLabel {
+    font-size: 13px;
+    font-weight: 600;
+    fill: #333;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .legendItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .inHouseDot {
+    width: 14px;
+    height: 14px;
+    background-color: #aaa;
+    border-radius: 2px;
+  }
+  
+  .outsourceDot {
+    width: 14px;
+    height: 14px;
+    background-color: #d00000;
+    border-radius: 2px;
+  }
+  

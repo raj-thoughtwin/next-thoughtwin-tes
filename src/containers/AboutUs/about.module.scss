@@ -1,0 +1,564 @@
+.our_team {
+  position: relative;
+}
+.bg_images11 {
+  background: url("/assets/images/img/banner1.png");
+  height: 559px;
+  @media only screen and (max-width: 767px) {
+    height: 180px;
+  }
+}
+.our_team,
+.portfolio_header {
+  padding-top: 72px;
+  margin-top: 67px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 50px;
+    margin-top: 62px;
+  }
+}
+.concact_div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 495px;
+  @media only screen and (max-width: 767px) {
+    height: auto;
+  }
+}
+.concact_div h4 {
+  color: #4d4d4d;
+  font-size: 20px;
+  margin: 0px;
+  padding: 25px 0 0 0;
+  font-family: "Formular-Light";
+}
+.concact_div h2 {
+  font-size: 50px;
+  font-family: "Rajdhani";
+  color: #000000;
+  margin: 0px;
+  font-weight: 700;
+  position: relative;
+  @media only screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+}
+
+.concact_div h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -67px;
+  right: -67px;
+  width: 171px;
+  height: 145px;
+  background-size: 100% !important;
+  background: url(../../../public/assets/images/img/techno-round.png) no-repeat;
+}
+.concact_div p {
+  color: #e86258;
+  margin-bottom: 20px;
+}
+
+.concact_div p span {
+  margin: 0 13px;
+}
+
+.concact_div p span img {
+  width: 21px;
+}
+.about_logo {
+  text-align: center;
+}
+
+.icon_div1 {
+  color: #222;
+  margin: 50px 0 !important;
+  position: relative;
+}
+.about_border {
+  border-right: 1px solid #c1c1c1;
+}
+span.number {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Rajdhani";
+}
+
+.icon_div1 img {
+  margin: -18px 0 10px 0;
+}
+
+.icon_div1 .about_b {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon_div1 h1 {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 19px;
+  color: #000;
+  font-family: "Rajdhani";
+}
+
+.icon_div1 h1 img {
+  width: 80px;
+}
+
+.icon_div2 h2 {
+  margin: 22px 0 0 0;
+  color: #4d4d4d;
+
+}
+
+.icon_div2 p {
+  color: #000;
+  font-size: 19px;
+  text-transform: capitalize;
+  font-family: "Rajdhani";
+}
+.icon_border {
+  border-right: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+}
+
+.india-canada {
+  text-align: center;
+}
+
+.india_img img {
+  width: 100%;
+  height: auto;
+}
+.canada_img img {
+  width: 100%;
+  height: auto;
+}
+.contact_div h1 {
+  color: #222;
+  text-align: left;
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+.contact_div {
+  text-align: left;
+}
+
+.about_logo2 {
+  margin: 50px 0 !important;
+}
+
+p.contact_arrow {
+  color: #222;
+  font-size: 13px;
+  display: inline-flex;
+  font-size: 16px;
+}
+
+.about_logo2 h2 {
+  margin: 20px 0 5px 0;
+  font-size: 22px;
+  line-height: 21px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Rajdhani";
+}
+.contact-div span img {
+  width: 20px;
+  margin: -8px 10px 0 0;
+}
+.contact-div span {
+  display: block;
+  float: left;
+}
+.arrowBox {
+  display: inline-flex;
+}
+.arrowBox span {
+  height: 20px;
+}
+.arrowBox span img {
+  width: 20px;
+  height: auto;
+  margin: -8px 10px 0 0;
+}
+.arrowBox span {
+  display: inline-block;
+}
+
+.india_canada {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .bg_images11 {
+    background-repeat: round;
+    background-position: unset;
+    height: 380px;
+  }
+  .concact_div h4 {
+    padding-top: 50px;
+  }
+
+  .about_logo {
+    margin-top: 26px;
+  }
+  .icon_div1 img {
+    width: 90px;
+  }
+  span.number {
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bg_images11 {
+    height: 180px;
+  }
+  .about_logo2 {
+    margin: 0px 0px 50px 0 !important;
+  }
+  .icon_div1 {
+    margin: 25px 0 !important;
+  }
+  .icon_div2 {
+    border-right: #c1c1c1;
+  }
+  .icon_div2 p {
+    font-size: 15px;
+  }
+  .icon_div1 h1 {
+    padding-top: 0px;
+    font-size: 15px;
+  }
+  .bg_images11 {
+    background-attachment: unset;
+    background-repeat: round;
+  }
+  .renowned_para {
+    text-align: center;
+  }
+  .contact_div h1 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .concact_div h4 {
+    padding: 0 !important;
+    line-height: 24px;
+  }
+  .about_logo {
+    margin-top: 26px;
+  }
+  span.number {
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    line-height: 30px;
+  }
+
+  .icon_div2mobilenone {
+    display: none;
+  }
+  .icon_div1 img {
+    height: auto;
+    width: 50px;
+  }
+  .india_img img {
+    width: 70%;
+  }
+  .successfully_div,
+  .renowned_para {
+    text-align: center;
+  }
+
+  .canada_img {
+    margin-bottom: 20px;
+  }
+
+  .canada_img img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .concact_div h4 {
+    font-size: 15px !important;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .concact_div h4 {
+    font-size: 13px !important;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .concact_div h4 {
+    padding-top: 10px;
+  }
+  .about_logo2 {
+    margin: 0px 0px 50px 0 !important;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 912px) {
+  span.number {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .india_img img {
+    width: 100%;
+    height: auto;
+  }
+  .canada_img img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .india_img img,
+  .canada_img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.textArea p {
+  color: #828282;
+  font-size: 16px;
+  font-family: "Formular";
+  line-height: 24px;
+  display: flex;
+  padding-bottom: 12px;
+}
+
+.textArea p span {
+  display: inline-flex;
+  vertical-align: text-top;
+  margin-right: 5px;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    align-items: baseline;
+    padding-top: 5px;
+  }
+}
+
+.skilledArea {
+  padding-top: 20px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 20px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding-top: 20px;
+  }
+}
+
+.AreaWhoweare {
+  padding-top: 20px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 0px;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Rajdhani";
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    color: #000;
+    display: block;
+    margin: 0px auto;
+    width: 25%;
+    position: relative;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 32px;
+      padding-bottom: 10px;
+    }
+  }
+  h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -63px;
+    right: -24px;
+    width: 180px;
+    height: 157px;
+    background-size: 100% !important;
+    background: url(../../../public/assets/images/img/techno-round.png) no-repeat;
+  }
+}
+.ProfessionalsBox {
+  background: url(../../../public/assets/images/people.png) no-repeat;
+  padding: 40px;
+  @media only screen and (max-width: 767px) {
+    background-size: 100%;
+    padding: 25px 25px 28px;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    background-size: 100%;
+    padding: 30px 25px;
+  }
+  @media (min-width: 1234px) and (max-width: 1244px) {
+    padding: 26px 25px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    margin: 0px auto;
+    display: block;
+    width: 68%;
+    background-size: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    background-size: 100%;
+    margin-bottom: 20px;
+    padding: 45px;
+  }
+
+  h2 {
+    font-size: 68px;
+    font-family: "Formular-bold";
+    color: #fff;
+    margin-bottom: 0.5rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 22px;
+    }
+    @media (min-width: 1200px) and (max-width: 1399px) {
+      font-size: 58px;
+    }
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Formular";
+    margin-bottom: 0.5rem;
+    @media only screen and (max-width: 767px) {
+      font-size: 13px;
+    }
+  }
+}
+
+.ChooseUs {
+  background: linear-gradient(
+    248.53deg,
+    #ff8177 -74.91%,
+    #ff867a -74.91%,
+    #ff8c7f -35.85%,
+    #f99185 21.81%,
+    #cf556c 70.17%,
+    #b12a5b 111.09%
+  );
+  padding: 23px 30px;
+  position: relative;
+  border-radius: 24px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    padding: 30px 40px;
+  }
+  @media (min-width: 1234px) and (max-width: 1244px) {
+    padding: 15px 40px;
+  }
+
+  h3 {
+    font-family: "Formular-bold";
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 15px;
+    }
+  }
+
+  .chooseImg {
+    position: absolute;
+    right: 31px;
+    top: 20px;
+  }
+
+  .Product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    @media (min-width: 1025px) and (max-width: 1199px) {
+      padding: 10px;
+    }
+    @media (min-width: 1200px) and (max-width: 1399px) {
+      padding: 7px 12px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-size: 14px;
+      font-family: "Formular";
+      color: #64748b;
+      margin: 0px;
+    }
+    h3 {
+      font-size: 20px;
+      font-family: "Formular-bold";
+      color: #0f172a;
+      margin: 0px;
+      @media (min-width: 1025px) and (max-width: 1199px) {
+        font-size: 14px;
+      }
+      @media only screen and (max-width: 767px) {
+        padding-bottom: 0px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768x) and (max-width: 1024px) {
+  .portfolio_header {
+    padding-top: 40px;
+    margin-top: 61px;
+  }
+}
+
+.AreaWhoweare {
+  h2 {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      width: 35%;
+    }
+  }
+  h2 {
+    @media only screen and (max-width: 767px) {
+      width: 70%;
+    }
+  }
+
+  h2::after {
+    width: 129px;
+    height: 115px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .concact_div h2::after {
+    width: 129px;
+    height: 115px;
+    top: -52px;
+    right: -56px;
+  }
+}

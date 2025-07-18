@@ -1,0 +1,386 @@
+.nav .nav-item button.active {
+  background-color: transparent;
+  color: var(--bs-danger) !important;
+}
+.nav .nav-item button.active::after {
+  content: "";
+  border-right: 4px solid var(--bs-danger);
+  height: 100%;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  border-radius: 5px 0 0 5px;
+}
+.bannerBlog {
+  background: linear-gradient(
+    90deg,
+    rgba(228, 175, 203, 0.4) 0%,
+    rgba(184, 203, 184, 0.4) 0%,
+    rgba(184, 203, 184, 0.4) 0%,
+    rgba(226, 197, 139, 0.4) 30%,
+    rgba(194, 206, 156, 0.4) 64%,
+    rgba(126, 219, 220, 0.4) 100%
+  );
+  padding: 24px 0px;
+  margin-top: 67px;
+
+  h2 {
+    color: $black-text-color;
+    font-size: 48px;
+    font-family: "Formular-Medium";
+    text-transform: uppercase;
+  }
+}
+.pillsOuter {
+  border: 1px solid rgba(235, 235, 235, 1);
+  border-radius: 12px;
+  padding: 0px 0px 28px;
+  background-color: #fff;
+  overflow: hidden;
+  position: sticky;
+  top: 84px;
+  left: 0;
+  overflow-y: scroll;
+  height: 86vh;
+
+@media only screen and (max-width: 767px) {
+  height: auto;
+}
+
+  h4 {
+    font-size: 24px;
+    color: #000;
+    font-family: "Formular-Medium";
+    background: #f4f4f4;
+    padding: 16px 16px 16px;
+    margin-bottom: 16px;
+  }
+  a {
+    position: relative;
+  }
+  ul {
+    padding: 0px 16px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    margin: 0px !important;
+  }
+
+  a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 8px;
+    height: 15px;
+    background: url(../../../public/assets/images/linkarrow.svg);
+  }
+
+  .sideNav a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    @media (min-width: 768px) and (max-width: 1024px) {
+      font-size: 14px;
+    }
+   
+  }
+
+  .sideNav li{
+    padding: 0px 0px 22px;
+  }
+
+  .sideNav li.activeSidenav.active a{
+    color: red;
+}
+
+// ********************************* arrow css
+.sideNav li.activeSidenav.active a::after{
+  background: url(../../../public/assets/images/redArrow.svg);
+  color: red;
+}
+  // a.active:after {
+  //   background: url(../../../public/assets/images/redArrow.svg);
+  //   color: red;
+  // }
+  a.active {
+    color: $red-color;
+  }
+}
+
+.TabSection {
+  padding: 44px 0px;
+  background: #fafafa;
+}
+.tabOuterArea {
+  h2 {
+    color: #000;
+    font-family: "Formular-Medium";
+    font-size: 24px;
+    padding-bottom: 24px;
+  }
+}
+.tabContentArea {
+  border: 1px solid rgba(235, 235, 235, 1);
+  border-radius: 12px;
+  padding: 28px 15px;
+  margin-bottom: 30px;
+  background-color: #fff;
+
+  .btnBox button {
+    border: 1px solid $red-color;
+    width: 164px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: $red-color;
+    border-radius: 30px;
+    display: block;
+    margin: 0px auto;
+    background: transparent;
+    transition: all 0.3s;
+  }
+  .btnBox button:hover {
+    background: $red-color;
+    color: #fff;
+  }
+  .TabBox {
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    h3 {
+      color: #2b2b2b;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 0px 16px 20px;
+
+      @media (min-width: 768px) and (max-width: 1024px) {
+        font-size: 14px;
+        padding: 0px 10px 20px;
+        margin: 0px;
+      }
+    }
+
+    .ImgeBox {
+      background: #E8FFEE;
+      img {
+        width: 100%;
+      }
+    }
+
+    .CenterBox {
+      padding: 12px 16px;
+    }
+
+    .DateBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h6 {
+        margin: 0px;
+      }
+    }
+
+    .DurationBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 6px;
+      // background: #527893;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 400;
+      font-family: "Formular";
+      color: #625b71;
+
+      img {
+        width: 11px;
+        height: auto;
+        margin-right: 4px;
+      }
+    }
+    .DateBox {
+      h6 {
+        color: #625b71;
+        font-weight: 400;
+        font-size: 11px;
+      }
+    }
+
+    .bottomBox {
+      background: #fafafa;
+      padding: 16px;
+      font-size: 14px;
+      font-weight: 400;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #3d3d3d;
+
+      .leftBox {
+        display: flex;
+        img {
+          height: auto;
+          width: 17px;
+          margin-right: 4px;
+        }
+      }
+
+      .rightBox a {
+        cursor: pointer;
+        color: #3d3d3d;
+        font-family: poppins;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pillsOuter {
+    margin-bottom: 20px;
+  }
+  .sideNav {
+    display: none;
+  }
+
+  .blogImgBox {
+    text-align: center;
+    img {
+      width: 300px;
+    }
+  }
+
+  .tabOuterArea h2 {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .bannerBlog {
+    margin-top: 62px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .blogImgBox {
+    text-align: center;
+    img {
+      width: 300px;
+    }
+  }
+
+  .bannerBlog {
+    margin-top: 62px;
+
+    h2 {
+      font-size: 40px;
+    }
+  }
+  .tabContentArea {
+    .TabBox {
+      .bottomBox {
+        padding: 6px;
+      }
+      .ImgeBox {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .CenterBox {
+        padding: 10px;
+      }
+
+      .leftBox {
+        font-size: 13px;
+      }
+      .rightBox {
+        font-size: 13px;
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+}
+
+.search_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #ddd;
+  padding: 0 10px 0px 0px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 100%;
+  }
+
+  select{
+    background: #F5F6FA;
+    border: none;
+    height: 48px;
+    padding: 0px 10px;
+    @media only screen and (max-width: 767px) {
+width: 50%;
+    }
+  }
+}
+
+.search_input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: "Formular", sans-serif; /* Optional: fallback if Formular is unavailable */
+  font-size: 18px;
+  line-height: 20.8px;
+  color: #000;
+  height: 48px;
+  padding: 0px 10px;
+  background: transparent;
+}
+
+.search_button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 3px 0px 5px 9px;
+  border-left: 1px solid #e5e5e5;
+}
+
+.input_wrapper{
+  position: relative;
+  width: 100%;
+    input{
+      width: 100%;
+    }
+
+    .clear_button{
+      position: absolute;
+      right: 4px;
+      top: 9px;
+      background: transparent;
+      border: none;
+    }
+}

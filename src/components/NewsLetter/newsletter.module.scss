@@ -1,0 +1,60 @@
+.newsletterWrapper {
+  // background-color: #f1f1f1;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 0px;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    @media only screen and (max-width: 767px) {
+      font-size: 25px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .newsletterForm {
+    display: inline-flex;
+    gap: 10px;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+
+    input {
+      padding: 9px 15px;
+      width: 250px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+      @media only screen and (max-width: 767px) {
+        width: 210px;
+      }
+    }
+
+    button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+}

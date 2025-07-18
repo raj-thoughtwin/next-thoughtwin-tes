@@ -1,0 +1,104 @@
+/* AlertModal.module.scss */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modalContent {
+    padding:20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 767px) {
+      margin-top: -85px;
+      text-align: center;
+    }
+    
+  }
+}
+
+.modal {
+  width: 820px;
+  height: 210px;
+  max-width: 90%;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.modalImage {
+  width: 25%;
+  // background-image: url("https://assets.personizely.net/images/4e9dfaf9cda1717f46cb2cb2ea16e86e.jpg");
+  background-image: url(../../../public/assets/images/Important.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.modalContent {
+  padding: 20px;
+  width: 76%;
+}
+
+.title {
+  font-size: 20px;
+  margin-top: 0;
+  font-family: "poppins";
+  font-weight: 600;
+  @media (max-width: 767px) {
+  margin: 0px auto 10px;
+  }
+}
+
+.paragraph {
+  font-size:16px;
+  // font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+  font-family: "poppins";
+}
+
+.closeButton {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 24px; 
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .modalImage {
+    width: 100%;
+  }
+
+  .modal {
+    height: 400px;
+    overflow: scroll;
+    display: grid;
+  }
+  .modalImage {
+    width: 34%;
+    height: 135px;
+    display: inline-block;
+    margin: 30px auto 0px;
+  }
+  .modalContent {
+    width: 100%;
+    padding: 0px 20px 0px !important;
+    text-align: center;
+  }
+}

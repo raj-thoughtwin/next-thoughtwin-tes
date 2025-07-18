@@ -1,0 +1,42 @@
+.successfullyDiv{
+    border: 1px solid #C1C6CA80;
+    border-radius: 16px;
+    padding: 40px 35px;
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    background: #fff;
+    h3{
+        color: #15171F;
+        font-size: 24px;
+        font-family: "Formular";
+        padding-top: 24px;
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+          }
+    }
+    p{
+        color: #15171F;
+        font-size: 14px;
+        font-family: "Formular";
+        padding-bottom: 15px;
+    }
+    button{
+        border:0;
+        border-radius: 30px;
+        padding: 8px 30px;
+        height: 48px;
+        background: #FF0000;
+        color: white;
+        font-size: 16px;
+        font-family: "Formular-Medium";
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .successfullyDiv{
+        width: 95%;
+    }
+}

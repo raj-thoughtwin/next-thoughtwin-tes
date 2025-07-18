@@ -1,0 +1,167 @@
+.stepper_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.step {
+  height: 4px;
+  flex: 1;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.activeStep {
+  background-color: red;
+}
+
+.CalculatorAreaSubHeading {
+  position: relative;
+  margin-bottom: 40px;
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-bottom: 20px;
+  }
+  @media (min-width: 991px) and (max-width: 1024px) {
+    margin-bottom: 20px;
+  }
+}
+
+.stepper_container {
+  margin-top: 20px;
+
+  display: flex;
+
+  .firstStep {
+    height: 2px;
+    width: 15%;
+    margin-right: 20px;
+    background: $red-color;
+  }
+
+  .secondStep {
+    height: 2px;
+    width: 15%;
+    margin-right: 20px;
+    background: grey;
+  }
+
+  .thirdStep {
+    height: 2px;
+    width: 15%;
+    margin-right: 20px;
+    background: grey;
+  }
+
+  .fourthStep {
+    height: 2px;
+    width: 15%;
+    margin-right: 20px;
+    background: grey;
+  }
+
+  .fifthStep {
+    height: 2px;
+    width: 15%;
+    margin-right: 20px;
+    background: grey;
+  }
+
+  .sixthStep {
+    height: 2px;
+    width: 15%;
+    background: grey;
+  }
+}
+
+.steps_para {
+  position: absolute;
+  right: 8px;
+  color: $red-color;
+}
+
+.btnBox {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnBox .prevBtn:hover {
+  background: $red-color;
+  color: $white-color;
+  border: 1px solid transparent;
+}
+.btnBox .nextBtn {
+  border-radius: 30px;
+  width: 158px;
+  height: 56px;
+  background: $red-color;
+  color: white;
+  font-size: 16px;
+  font-family: "Formular-Medium";
+  border: none;
+  padding: 12px;
+}
+.btnBox .prevBtn {
+  border-radius: 30px;
+  padding: 12px;
+  width: 158px;
+  color: white;
+  transition: all 0.3s;
+  border: 1px solid $red-color;
+}
+.btnBox .nextBtn:hover {
+  color: $black-text-color;
+  border: 1px solid $black-text-color;
+  background: transparent;
+}
+.btnBox .prevBtn {
+  border-radius: 30px;
+  padding: 8px 28px;
+  width: 158px;
+  height: 56px;
+  background: transparent;
+  font-size: 16px;
+  margin-right: 16px;
+  border: 1px solid #000000;
+  color: $red-color;
+  background-color: transparent;
+  font-family: "Formular-Medium";
+}
+
+.btnBox .prevBtn:hover {
+  background: $red-color;
+  color: $white-color;
+  border: 1px solid transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .btnBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btnBox .nextBtn,
+  .btnBox .prevBtn {
+    height: 40px;
+    width: 140px;
+    padding: 0;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btnBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btnBox .nextBtn {
+    height: 50px;
+    width: 145px;
+  }
+  .btnBox .prevBtn {
+    height: 50px;
+    width: 145px;
+  }
+}

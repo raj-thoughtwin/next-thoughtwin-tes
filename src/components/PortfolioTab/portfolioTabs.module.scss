@@ -1,0 +1,65 @@
+.porfolio_tab h3:hover {
+  background: $red-color !important;
+  color: $white-color !important;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.porfolio_tab h3 {
+  margin-bottom: 0px;
+  padding: 15px 0;
+  cursor: pointer;
+  font-weight: normal;
+  color: #5e6469;
+  font-size: 24px;
+  text-align: center;
+  @media screen and (max-width: 767px) {
+    padding: 11px 0;
+  }
+}
+
+section.porfolio_tab {
+  border: 1px solid #eee;
+  border-right: 0;
+  border-left: 0;
+}
+
+
+.nopadd {
+    padding: 0 !important;
+  }
+  
+  .portfolio_div a {
+    text-decoration: none;
+  }
+
+  .border_both {
+    border-left: 1px solid #eee;
+    // border-right: 1px solid #eee;
+  }
+    
+@media (min-width: 768px) and (max-width: 991px) {
+  .porfolio_tab h3 {
+    font-size: 17px;
+  }
+  .porfolio_tab{
+    margin: 30px 0px 30px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .porfolio_tab h3 {
+    font-size: 14px !important;
+  }
+  .portfolio_div {
+    width: 25% !important;
+}
+.mob_portfolio{
+  display: none;
+}
+
+}
+
+
