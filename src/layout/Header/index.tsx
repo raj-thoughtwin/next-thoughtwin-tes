@@ -23,7 +23,7 @@ import RORw from "../../../public/assets/images/img/services/RORw.svg";
 import blockchain from "../../../public/assets/images/img/services/blockchain.svg";
 import Blockchainw from "../../../public/assets/images/img/services/blockchainw.svg";
 import node from "../../../public/assets/images/img/services/node.svg";
-import Nodew from "../../../public/assets/images/img/services/Nodew.svg";
+import Nodew from "../../../public/assets/images/img/services/nodew.svg";
 import MeanStack from "../../../public/assets/images/img/services/MeanStack.svg";
 import MeanStackw from "../../../public/assets/images/img/services/MeanStackw.svg";
 import MernStack from "../../../public/assets/images/img/services/MernStack.svg";
