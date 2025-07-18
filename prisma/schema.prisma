@@ -7,27 +7,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-enum Service {
-  CRM
-  WEB
-  ERP
-  IOT
-  UI_UX
-  MOBILE_APPS
-  PRODUCTS
-  OTHERS
-}
-
 model ContactUs {
-  id            Int      @id @default(autoincrement())
-  interested    String[]
-  budget        String
-  industry      String
+  id            Int       @id @default(autoincrement())
   fullName      String
   email         String
   phoneNumber   String
-  fileUrl       String?
+  skypeWhatsapp String?
   description   String
+  services      Service[]
   createdAt     DateTime  @default(now())
 }
 
@@ -56,21 +43,20 @@ model ApplyJob {
 }
 
 model SoftwareDevelopmentStepper {
-  id             Int      @id @default(autoincrement())
-  whatToDo       String
-  alreadyHave    String
-  platformType   String
-  industry       String
-  industryDesc   String?
-  solutionTypes  String[] // Use @db.Text[] if using PostgreSQL
+  id                Int      @id @default(autoincrement())
+  whatToDo          String
+  alreadyHave       String
+  platformType      String
+  industry          String
+  industryDesc      String?
+  solutionTypes     String[]
   solutionTypesDesc String?
-  projectDelivery String
-  name           String
-  email          String
-  terms          Boolean
-  createdAt      DateTime @default(now())
+  projectDelivery   String
+  name              String
+  email             String
+  terms             Boolean
+  createdAt         DateTime @default(now())
 }
-
 
 model Admin {
   id        Int      @id @default(autoincrement())
@@ -81,42 +67,42 @@ model Admin {
 }
 
 model TeamExtensionStepper {
-  id                Int      @id @default(autoincrement())
-  step1Technology   Json     // Stores array of categories with roles
-  step2Specialist   Json     // Stores array of specialists with label + count
+  id                  Int      @id @default(autoincrement())
+  step1Technology     Json
+  step2Specialist     Json
   step2SpecialistDesc String?
-  needExtension     String
-  name              String
-  email             String
-  terms             Boolean
-  createdAt         DateTime @default(now())
+  needExtension       String
+  name                String
+  email               String
+  terms               Boolean
+  createdAt           DateTime @default(now())
 }
 
 model MvpDevelopmentStepper {
-  id              Int      @id @default(autoincrement())
-  industry        String
-  industryDesc    String?
-  businessGoal    String
+  id                 Int      @id @default(autoincrement())
+  industry           String
+  industryDesc       String?
+  businessGoal       String
   releaseProjectDate String
-  platformType    String
-  screenSize      String 
-  customDesign    String
-  cloudPlateform  String
-  appFeature      String[]
-  appFeatureDesc  String?
-  additionalInfo  String
-  projectDelivery String
-  name            String
-  email           String
-  term            Boolean
-  createdAt       DateTime @default(now())
+  platformType       String
+  screenSize         String
+  customDesign       String
+  cloudPlateform     String
+  appFeature         String[]
+  appFeatureDesc     String?
+  additionalInfo     String
+  projectDelivery    String
+  name               String
+  email              String
+  term               Boolean
+  createdAt          DateTime @default(now())
 }
 
 model Email {
-  id           Int       @id @default(autoincrement())
-  formType     String
-  emails       String[]
-  createdAt    DateTime  @default(now())
+  id        Int      @id @default(autoincrement())
+  formType  String
+  emails    String[]
+  createdAt DateTime @default(now())
 }
 
 model ChatBot {
@@ -128,32 +114,13 @@ model ChatBot {
   createdAt   DateTime @default(now())
 }
 
-model Blog {
-  id           Int       @id @default(autoincrement())
-  title        String
-  slug         String    @unique
-  prefix       String
-  term         String
-  make         String
-  isManual     Boolean   @default(false)
-  isApprove    Boolean   @default(false)
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
-  introduction       String?
-  technologyJustification String?
-  thoughtwinApproach String?
-  featureHighlights  Json?       // store as array of objects or strings
-  caseStudy          String?     // full paragraph format
-  faq                Json?       // [{ question, answer }, ...]
-  estimatedReadingTime  Int?
-  imageName    String?
-  likes       Int  @default(0)
-
-  @@index([isApprove, prefix, term, make, isManual])
-}
-
-model NewsletterSubscription {
-  id    Int    @id @default(autoincrement())
-  email String @unique
-  createdAt DateTime @default(now())
+enum Service {
+  CRM
+  WEB
+  ERP
+  IOT
+  UI_UX
+  MOBILE_APPS
+  PRODUCTS
+  OTHERS
 }
